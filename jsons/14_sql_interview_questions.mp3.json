@@ -1,0 +1,1083 @@
+{
+    "chunks": [
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 0.0,
+            "end": 2.92,
+            "text": " Hey everyone, welcome back to another video."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 2.92,
+            "end": 6.66,
+            "text": " So some of you have reached out to me in the past couple weeks or so asking me to make"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 6.66,
+            "end": 12.86,
+            "text": " more SQL videos, specifically walkthroughs of SQL interview questions."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 12.86,
+            "end": 15.46,
+            "text": " So your wish is my command."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 15.46,
+            "end": 16.46,
+            "text": " And here it is."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 16.46,
+            "end": 22.2,
+            "text": " By the way, if you watched my past video about how I learned SQL from scratch in 11 days"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 22.2,
+            "end": 26.76,
+            "text": " to pass my FAANG data science interview, you would know that I have an obsession with my"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 26.76,
+            "end": 27.76,
+            "text": " whiteboard."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 27.76,
+            "end": 29.96,
+            "text": " I prefer to do everything on my whiteboard."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 29.96,
+            "end": 33.96,
+            "text": " However, you guys did make a really good point because interviews are going to be virtual"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 33.96,
+            "end": 34.96,
+            "text": " now."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 34.96,
+            "end": 39.6,
+            "text": " So they're probably going to also find a whiteboarding round is going to be virtual as well."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 39.6,
+            "end": 43.2,
+            "text": " And they're going to use something called Coderpad usually, which is just like a text"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 43.2,
+            "end": 45.54,
+            "text": " editor similar to Sublime Text."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 45.54,
+            "end": 50.519999999999996,
+            "text": " So I'm going to just show you guys using Sublime because I think Coderpad is paid and it's"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 50.519999999999996,
+            "end": 52.08,
+            "text": " pretty much the same thing anyway."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 52.08,
+            "end": 55.56,
+            "text": " Alright, so let's get started."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 55.56,
+            "end": 59.28,
+            "text": " The question that we're going to be looking at today is a SQL interview question asked"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 59.28,
+            "end": 60.68,
+            "text": " by a tech company."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 60.68,
+            "end": 65.48,
+            "text": " The question is, write a SQL query to count the number of unique users per day who logged"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 65.48,
+            "end": 72.36,
+            "text": " in from both iPhone and Web, where iPhone logs and Web logs are in distinct relations."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 72.36,
+            "end": 78.32,
+            "text": " So this question doesn't tell us what the iPhone logs and Web logs actually looks like."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 78.32,
+            "end": 80.6,
+            "text": " So we're going to have to make some assumptions here."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 80.6,
+            "end": 83.28,
+            "text": " All right, so let's see."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 83.28,
+            "end": 88.16,
+            "text": " For iPhone logs, let's call that iPhone."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 88.16,
+            "end": 97.52,
+            "text": " I'm going to assume that it's going to be timestamps called TS, user ID and iPhone session"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 97.52,
+            "end": 99.92,
+            "text": " ID."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 99.92,
+            "end": 109.88,
+            "text": " And similarly for Web log, it's going to be timestamp, user ID and Web session ID."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 110.83999999999999,
+            "end": 115.75999999999999,
+            "text": " Okay, so I'm going to just assume that this is what our relations are going to be looking"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 115.75999999999999,
+            "end": 121.8,
+            "text": " like and I'm going to write down each step of how to tackle this query."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 121.8,
+            "end": 128.8,
+            "text": " So the first step is going to be join."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 128.8,
+            "end": 134.92,
+            "text": " So we want to join together the iPhone and the Web tables."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 134.92,
+            "end": 147.04,
+            "text": " And then after that, we're going to be matching by day and user ID."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 147.04,
+            "end": 157.16,
+            "text": " And finally, we're going to be grouping by the day and we want to count the number of"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 157.16,
+            "end": 159.11999999999998,
+            "text": " users per day."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 159.12,
+            "end": 168.08,
+            "text": " So our final table is probably going to look something like day num users."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 168.08,
+            "end": 172.96,
+            "text": " All right, so we now know what it is that we want it to look like."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 172.96,
+            "end": 177.36,
+            "text": " All right, so time to write the query."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 177.36,
+            "end": 187.08,
+            "text": " From iPhone I, join Web W. And we're going to be joining on here match by day and user"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 187.08,
+            "end": 188.28,
+            "text": " ID."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 188.28,
+            "end": 197.68,
+            "text": " So I dot user ID is equal to W dot user ID."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 197.68,
+            "end": 200.64,
+            "text": " And so we're going to be joining by the day."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 200.64,
+            "end": 207.12,
+            "text": " But timestamp, our assumption is that it actually includes both the day and that time associated"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 207.12,
+            "end": 208.12,
+            "text": " with that."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 208.12,
+            "end": 211.44,
+            "text": " But since we only care about the date, we don't actually care about the granularity"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 211.44,
+            "end": 214.44,
+            "text": " of the hours or the minutes or the seconds."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 214.44,
+            "end": 215.8,
+            "text": " So we can actually truncate that."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 216.0,
+            "end": 226.20000000000002,
+            "text": " So the function here is date trunk, day and I dot user, oops, not user ID, I dot t s"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 226.20000000000002,
+            "end": 233.16000000000003,
+            "text": " is equal to date trunk day W dot t s."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 233.16000000000003,
+            "end": 234.64000000000001,
+            "text": " So that should match by day."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 234.64000000000001,
+            "end": 240.60000000000002,
+            "text": " All right, so our third step here is to group by the day and count the number of users."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 240.60000000000002,
+            "end": 244.46,
+            "text": " OK, so let's write the select statement first."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 244.46,
+            "end": 245.98000000000002,
+            "text": " We want the day over here."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 245.98000000000002,
+            "end": 250.54000000000002,
+            "text": " So we're going to do date trunk again."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 250.54000000000002,
+            "end": 255.78,
+            "text": " Day I dot t s as day."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 255.78,
+            "end": 258.5,
+            "text": " And then we're going to count the number of users."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 258.5,
+            "end": 260.02,
+            "text": " So count."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 260.02,
+            "end": 263.18,
+            "text": " So number of users we want are unique."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 263.18,
+            "end": 265.5,
+            "text": " So we want to count distinct."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 265.5,
+            "end": 270.86,
+            "text": " Oops."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 270.86,
+            "end": 274.66,
+            "text": " I dot user ID."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 274.66,
+            "end": 277.90000000000003,
+            "text": " As numb users."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 277.90000000000003,
+            "end": 282.74,
+            "text": " And I just wanted to make a point here in saying that we used an inner join because"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 282.74,
+            "end": 285.1,
+            "text": " we didn't specify what kind of join that we're using."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 285.1,
+            "end": 291.58000000000004,
+            "text": " So that should only join together users that were logged in from both iPhone and Web."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 291.58000000000004,
+            "end": 299.66,
+            "text": " All right, so we need to write the group by clause to group by one."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 299.66,
+            "end": 306.78000000000003,
+            "text": " All right, let us look this over one more time."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 306.78000000000003,
+            "end": 308.02000000000004,
+            "text": " Select date trunk."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 308.02000000000004,
+            "end": 312.3,
+            "text": " OK, so that should give us the day and it should give us the count as the number of"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 312.3,
+            "end": 313.3,
+            "text": " users."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 313.3,
+            "end": 317.06,
+            "text": " iPhone I, Web here joining is correct."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 317.06,
+            "end": 321.58000000000004,
+            "text": " OK, so that looks correct to me."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 321.58000000000004,
+            "end": 327.18,
+            "text": " And now I'm going to think about if there's any ways of making it more optimized."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 327.18,
+            "end": 335.66,
+            "text": " OK, so I think that this is pretty much as optimal that you can get."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 335.66,
+            "end": 340.66,
+            "text": " We need to distinct here in case people log in on their iPhone and Web multiple times"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 340.66,
+            "end": 341.66,
+            "text": " throughout the day."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 341.66,
+            "end": 344.38,
+            "text": " We only want to count the number of users that are there."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 344.38,
+            "end": 346.5,
+            "text": " So we do need that."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 346.5,
+            "end": 352.42,
+            "text": " And in terms of date trunk, I mean, there could be a function that's more efficient"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 352.42,
+            "end": 355.1,
+            "text": " than that, but I think this is fine."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 355.1,
+            "end": 356.1,
+            "text": " OK."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 356.22,
+            "end": 358.74,
+            "text": " OK, yeah, this looks good to me."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 358.74,
+            "end": 365.38,
+            "text": " So our final step now is to actually test out this query and see if we made any mistakes"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 365.38,
+            "end": 366.38,
+            "text": " before we get into that."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 366.38,
+            "end": 370.58000000000004,
+            "text": " I just wanted to say that if you're enjoying this video and finding it useful, consider"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 370.58000000000004,
+            "end": 373.82000000000005,
+            "text": " liking the video and even subscribing to the channel."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 373.82000000000005,
+            "end": 378.42,
+            "text": " I'm planning to make more videos like these depending on how much you guys like them."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 378.42,
+            "end": 385.02000000000004,
+            "text": " But yeah, like that's your interactions with me and your engagements is how I gauge how"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 385.06,
+            "end": 387.26,
+            "text": " useful you guys are finding my material."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 387.26,
+            "end": 390.74,
+            "text": " And it really motivates me to make more videos like these."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 390.74,
+            "end": 391.74,
+            "text": " All right."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 394.06,
+            "end": 401.78,
+            "text": " So this is SQL fiddle, and I just copy pasted some dummy data that I made previously, just"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 401.78,
+            "end": 403.06,
+            "text": " like for the sake of time."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 403.06,
+            "end": 407.26,
+            "text": " You guys don't have to watch me trying to come up with data to play in."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 407.26,
+            "end": 410.29999999999995,
+            "text": " I'll still go over it with you guys, though."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 410.3,
+            "end": 415.14,
+            "text": " So I created two tables, one called web, one called iPhone, which is exactly the tables"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 415.14,
+            "end": 417.98,
+            "text": " that we assume that we were having when we were writing the query."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 417.98,
+            "end": 422.78000000000003,
+            "text": " So it has timestamp, user ID, web session ID, and for iPhone has timestamp, user ID,"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 422.78000000000003,
+            "end": 424.14,
+            "text": " and iPhone session ID."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 424.14,
+            "end": 428.38,
+            "text": " And I also just inserted some values in to test our query with."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 428.38,
+            "end": 434.92,
+            "text": " So here we have in web now, so like timestamp is going to be currently user ID is one and"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 434.92,
+            "end": 436.46000000000004,
+            "text": " session ID is 100."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 436.46,
+            "end": 441.9,
+            "text": " And then this is from one hour ago, it's still the same user and session is 101."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 441.9,
+            "end": 446.82,
+            "text": " And then I did another one that was from one day ago, user ID is two, so a separate person"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 446.82,
+            "end": 448.9,
+            "text": " and the session ID is 103."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 448.9,
+            "end": 450.78,
+            "text": " For iPhone, I did something similar."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 450.78,
+            "end": 454.74,
+            "text": " So our same user here, user number one."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 454.74,
+            "end": 458.82,
+            "text": " And then from two hours ago, user number one again, I did user one and I did duplicates"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 458.82,
+            "end": 462.85999999999996,
+            "text": " of this just to make sure that we actually have unique number of users."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 463.26,
+            "end": 468.3,
+            "text": " Sorry, just to make sure that we have unique users because we don't want duplicates to"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 468.3,
+            "end": 470.62,
+            "text": " show up."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 470.62,
+            "end": 476.46000000000004,
+            "text": " And then we have from one day ago, but this one is different, the user ID is three."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 476.46000000000004,
+            "end": 485.76,
+            "text": " So after we run our query, the return should be we only have one row for today and we should"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 485.76,
+            "end": 490.26,
+            "text": " have number of users is going to be one because the only one that should match is user ID"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 490.26,
+            "end": 492.94,
+            "text": " number one and only one of them."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 492.94,
+            "end": 497.53999999999996,
+            "text": " All right, so let us copy paste our actual query."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 497.53999999999996,
+            "end": 501.3,
+            "text": " Oops, that is not our query."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 501.3,
+            "end": 504.62,
+            "text": " This is our query."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 504.62,
+            "end": 508.58,
+            "text": " So this is the query that we just wrote."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 508.58,
+            "end": 511.02,
+            "text": " Hopefully it works."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 511.02,
+            "end": 518.02,
+            "text": " Fingers crossed."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 518.02,
+            "end": 520.06,
+            "text": " So many errors."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 520.8599999999999,
+            "end": 522.6199999999999,
+            "text": " So this is my SQL server."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 522.6199999999999,
+            "end": 525.38,
+            "text": " So I actually wrote this in Postgres SQL."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 525.38,
+            "end": 530.8599999999999,
+            "text": " So let's change that and try again."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 530.8599999999999,
+            "end": 534.66,
+            "text": " Yay, it worked."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 534.66,
+            "end": 535.66,
+            "text": " Success."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 535.66,
+            "end": 538.0999999999999,
+            "text": " All right, so this is what we expected."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 538.0999999999999,
+            "end": 542.8599999999999,
+            "text": " We have today, which is September 2nd and number of users is one."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 542.8599999999999,
+            "end": 548.06,
+            "text": " So depending on how paranoid I am and just kind of like how confident I am in my query,"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 548.06,
+            "end": 552.42,
+            "text": " sometimes I would add in more dummy data to see if I can like catch any edge cases that"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 552.42,
+            "end": 556.5799999999999,
+            "text": " my query wouldn't be able to process."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 556.5799999999999,
+            "end": 562.3399999999999,
+            "text": " But in this case, I'm pretty confident that this query will work in all edge cases."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 562.3399999999999,
+            "end": 565.16,
+            "text": " So yeah, I think we're just going to leave it as that."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 565.16,
+            "end": 568.26,
+            "text": " So that was the final step and I just wanted to stress that it's really important to actually"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 568.26,
+            "end": 572.5,
+            "text": " test out your queries because oftentimes, you know, you think that's crap, but maybe"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 572.5,
+            "end": 576.66,
+            "text": " there's like small syntax error, which is things that you didn't catch previously."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 576.66,
+            "end": 580.1,
+            "text": " And this feedback is really important for you actually learning."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 580.1,
+            "end": 583.42,
+            "text": " So next time when something like that comes up again, you wouldn't make the same mistake"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 583.42,
+            "end": 584.6999999999999,
+            "text": " twice."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 584.6999999999999,
+            "end": 586.1,
+            "text": " And that's it for this question."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 586.1,
+            "end": 589.74,
+            "text": " This is what I did for all the SQL questions that I practiced when I was prepping for"
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 589.74,
+            "end": 593.14,
+            "text": " my own interview at the fang company."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 593.14,
+            "end": 596.14,
+            "text": " And yeah, let me know what you guys think about this video."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 596.14,
+            "end": 599.54,
+            "text": " I've never done like live coding like this before."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 599.54,
+            "end": 604.5799999999999,
+            "text": " So you know, let me know if it's like too slow, too fast and being like really confusing."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 604.58,
+            "end": 608.4200000000001,
+            "text": " You know, maybe I'm like repeating myself repeatedly, something like that."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 608.4200000000001,
+            "end": 609.4200000000001,
+            "text": " Right."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 609.4200000000001,
+            "end": 614.1800000000001,
+            "text": " And if you guys enjoy this video, also let me know if you want me to do more like this."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 614.1800000000001,
+            "end": 618.36,
+            "text": " Maybe it's helpful to see me just like go through more interview questions."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 618.36,
+            "end": 619.36,
+            "text": " Maybe not."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 619.36,
+            "end": 620.36,
+            "text": " Just let me know."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 620.36,
+            "end": 623.5400000000001,
+            "text": " So I know what kind of videos to make in the future as well."
+        },
+        {
+            "video_number": "14",
+            "video_title": "sql interview questions",
+            "start": 623.5400000000001,
+            "end": 627.34,
+            "text": " Alright, so thank you for watching this video and I'll see you guys next time."
+        }
+    ],
+    "text": " Hey everyone, welcome back to another video. So some of you have reached out to me in the past couple weeks or so asking me to make more SQL videos, specifically walkthroughs of SQL interview questions. So your wish is my command. And here it is. By the way, if you watched my past video about how I learned SQL from scratch in 11 days to pass my FAANG data science interview, you would know that I have an obsession with my whiteboard. I prefer to do everything on my whiteboard. However, you guys did make a really good point because interviews are going to be virtual now. So they're probably going to also find a whiteboarding round is going to be virtual as well. And they're going to use something called Coderpad usually, which is just like a text editor similar to Sublime Text. So I'm going to just show you guys using Sublime because I think Coderpad is paid and it's pretty much the same thing anyway. Alright, so let's get started. The question that we're going to be looking at today is a SQL interview question asked by a tech company. The question is, write a SQL query to count the number of unique users per day who logged in from both iPhone and Web, where iPhone logs and Web logs are in distinct relations. So this question doesn't tell us what the iPhone logs and Web logs actually looks like. So we're going to have to make some assumptions here. All right, so let's see. For iPhone logs, let's call that iPhone. I'm going to assume that it's going to be timestamps called TS, user ID and iPhone session ID. And similarly for Web log, it's going to be timestamp, user ID and Web session ID. Okay, so I'm going to just assume that this is what our relations are going to be looking like and I'm going to write down each step of how to tackle this query. So the first step is going to be join. So we want to join together the iPhone and the Web tables. And then after that, we're going to be matching by day and user ID. And finally, we're going to be grouping by the day and we want to count the number of users per day. So our final table is probably going to look something like day num users. All right, so we now know what it is that we want it to look like. All right, so time to write the query. From iPhone I, join Web W. And we're going to be joining on here match by day and user ID. So I dot user ID is equal to W dot user ID. And so we're going to be joining by the day. But timestamp, our assumption is that it actually includes both the day and that time associated with that. But since we only care about the date, we don't actually care about the granularity of the hours or the minutes or the seconds. So we can actually truncate that. So the function here is date trunk, day and I dot user, oops, not user ID, I dot t s is equal to date trunk day W dot t s. So that should match by day. All right, so our third step here is to group by the day and count the number of users. OK, so let's write the select statement first. We want the day over here. So we're going to do date trunk again. Day I dot t s as day. And then we're going to count the number of users. So count. So number of users we want are unique. So we want to count distinct. Oops. I dot user ID. As numb users. And I just wanted to make a point here in saying that we used an inner join because we didn't specify what kind of join that we're using. So that should only join together users that were logged in from both iPhone and Web. All right, so we need to write the group by clause to group by one. All right, let us look this over one more time. Select date trunk. OK, so that should give us the day and it should give us the count as the number of users. iPhone I, Web here joining is correct. OK, so that looks correct to me. And now I'm going to think about if there's any ways of making it more optimized. OK, so I think that this is pretty much as optimal that you can get. We need to distinct here in case people log in on their iPhone and Web multiple times throughout the day. We only want to count the number of users that are there. So we do need that. And in terms of date trunk, I mean, there could be a function that's more efficient than that, but I think this is fine. OK. OK, yeah, this looks good to me. So our final step now is to actually test out this query and see if we made any mistakes before we get into that. I just wanted to say that if you're enjoying this video and finding it useful, consider liking the video and even subscribing to the channel. I'm planning to make more videos like these depending on how much you guys like them. But yeah, like that's your interactions with me and your engagements is how I gauge how useful you guys are finding my material. And it really motivates me to make more videos like these. All right. So this is SQL fiddle, and I just copy pasted some dummy data that I made previously, just like for the sake of time. You guys don't have to watch me trying to come up with data to play in. I'll still go over it with you guys, though. So I created two tables, one called web, one called iPhone, which is exactly the tables that we assume that we were having when we were writing the query. So it has timestamp, user ID, web session ID, and for iPhone has timestamp, user ID, and iPhone session ID. And I also just inserted some values in to test our query with. So here we have in web now, so like timestamp is going to be currently user ID is one and session ID is 100. And then this is from one hour ago, it's still the same user and session is 101. And then I did another one that was from one day ago, user ID is two, so a separate person and the session ID is 103. For iPhone, I did something similar. So our same user here, user number one. And then from two hours ago, user number one again, I did user one and I did duplicates of this just to make sure that we actually have unique number of users. Sorry, just to make sure that we have unique users because we don't want duplicates to show up. And then we have from one day ago, but this one is different, the user ID is three. So after we run our query, the return should be we only have one row for today and we should have number of users is going to be one because the only one that should match is user ID number one and only one of them. All right, so let us copy paste our actual query. Oops, that is not our query. This is our query. So this is the query that we just wrote. Hopefully it works. Fingers crossed. So many errors. So this is my SQL server. So I actually wrote this in Postgres SQL. So let's change that and try again. Yay, it worked. Success. All right, so this is what we expected. We have today, which is September 2nd and number of users is one. So depending on how paranoid I am and just kind of like how confident I am in my query, sometimes I would add in more dummy data to see if I can like catch any edge cases that my query wouldn't be able to process. But in this case, I'm pretty confident that this query will work in all edge cases. So yeah, I think we're just going to leave it as that. So that was the final step and I just wanted to stress that it's really important to actually test out your queries because oftentimes, you know, you think that's crap, but maybe there's like small syntax error, which is things that you didn't catch previously. And this feedback is really important for you actually learning. So next time when something like that comes up again, you wouldn't make the same mistake twice. And that's it for this question. This is what I did for all the SQL questions that I practiced when I was prepping for my own interview at the fang company. And yeah, let me know what you guys think about this video. I've never done like live coding like this before. So you know, let me know if it's like too slow, too fast and being like really confusing. You know, maybe I'm like repeating myself repeatedly, something like that. Right. And if you guys enjoy this video, also let me know if you want me to do more like this. Maybe it's helpful to see me just like go through more interview questions. Maybe not. Just let me know. So I know what kind of videos to make in the future as well. Alright, so thank you for watching this video and I'll see you guys next time."
+}
