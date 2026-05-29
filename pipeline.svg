@@ -1,0 +1,198 @@
+<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#0f0f1a"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="100%" style="stop-color:#0099cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#a855f7"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#059669"/>
+      <stop offset="100%" style="stop-color:#10b981"/>
+    </linearGradient>
+    <linearGradient id="accent4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d97706"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="accent5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+    <filter id="glow1">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#334155"/>
+    </marker>
+    <marker id="arrow-cyan" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#00d4ff" opacity="0.7"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="420" fill="url(#bg)"/>
+
+  <!-- Grid lines subtle -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="0.5">
+    <line x1="0" y1="70" x2="900" y2="70"/>
+    <line x1="0" y1="140" x2="900" y2="140"/>
+    <line x1="0" y1="210" x2="900" y2="210"/>
+    <line x1="0" y1="280" x2="900" y2="280"/>
+    <line x1="0" y1="350" x2="900" y2="350"/>
+    <line x1="150" y1="0" x2="150" y2="420"/>
+    <line x1="300" y1="0" x2="300" y2="420"/>
+    <line x1="450" y1="0" x2="450" y2="420"/>
+    <line x1="600" y1="0" x2="600" y2="420"/>
+    <line x1="750" y1="0" x2="750" y2="420"/>
+  </g>
+
+  <!-- Title -->
+  <text x="450" y="32" text-anchor="middle" font-size="13" fill="#00d4ff" opacity="0.9" letter-spacing="6" font-weight="bold">VIDEO RAG PIPELINE</text>
+  <text x="450" y="50" text-anchor="middle" font-size="9" fill="#475569" letter-spacing="3">END-TO-END ARCHITECTURE</text>
+  <line x1="200" y1="58" x2="700" y2="58" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- STEP 1: Videos -->
+  <rect x="20" y="78" width="120" height="100" rx="6" fill="url(#card1)" stroke="#00d4ff" stroke-width="1" opacity="0.9"/>
+  <rect x="20" y="78" width="120" height="4" rx="2" fill="url(#accent1)"/>
+  <text x="80" y="100" text-anchor="middle" font-size="22" fill="#00d4ff" filter="url(#glow1)">🎬</text>
+  <text x="80" y="118" text-anchor="middle" font-size="8" fill="#94a3b8" letter-spacing="2">STEP 01</text>
+  <text x="80" y="133" text-anchor="middle" font-size="10" fill="#e2e8f0" font-weight="bold">.MP4 Videos</text>
+  <text x="80" y="148" text-anchor="middle" font-size="8" fill="#64748b">Raw lecture files</text>
+  <text x="80" y="163" text-anchor="middle" font-size="7" fill="#334155">videos/ folder</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="143" y1="128" x2="165" y2="128" stroke="#00d4ff" stroke-width="1.5" opacity="0.5" marker-end="url(#arrow-cyan)"/>
+  <text x="154" y="122" text-anchor="middle" font-size="7" fill="#334155">FFmpeg</text>
+
+  <!-- STEP 2: Audio -->
+  <rect x="168" y="78" width="120" height="100" rx="6" fill="url(#card1)" stroke="#a855f7" stroke-width="1" opacity="0.9"/>
+  <rect x="168" y="78" width="120" height="4" rx="2" fill="url(#accent2)"/>
+  <text x="228" y="100" text-anchor="middle" font-size="22" fill="#a855f7" filter="url(#glow1)">🎵</text>
+  <text x="228" y="118" text-anchor="middle" font-size="8" fill="#94a3b8" letter-spacing="2">STEP 02</text>
+  <text x="228" y="133" text-anchor="middle" font-size="10" fill="#e2e8f0" font-weight="bold">.MP3 Audio</text>
+  <text x="228" y="148" text-anchor="middle" font-size="8" fill="#64748b">Extracted audio</text>
+  <text x="228" y="163" text-anchor="middle" font-size="7" fill="#334155">audios/ folder</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="291" y1="128" x2="313" y2="128" stroke="#a855f7" stroke-width="1.5" opacity="0.5" marker-end="url(#arrow-cyan)"/>
+  <text x="302" y="122" text-anchor="middle" font-size="7" fill="#334155">Whisper</text>
+
+  <!-- STEP 3: JSON -->
+  <rect x="316" y="78" width="120" height="100" rx="6" fill="url(#card1)" stroke="#10b981" stroke-width="1" opacity="0.9"/>
+  <rect x="316" y="78" width="120" height="4" rx="2" fill="url(#accent3)"/>
+  <text x="376" y="100" text-anchor="middle" font-size="22" fill="#10b981" filter="url(#glow1)">📄</text>
+  <text x="376" y="118" text-anchor="middle" font-size="8" fill="#94a3b8" letter-spacing="2">STEP 03</text>
+  <text x="376" y="133" text-anchor="middle" font-size="10" fill="#e2e8f0" font-weight="bold">JSON Chunks</text>
+  <text x="376" y="148" text-anchor="middle" font-size="8" fill="#64748b">Timestamped text</text>
+  <text x="376" y="163" text-anchor="middle" font-size="7" fill="#334155">jsons/ folder</text>
+
+  <!-- Arrow 3→4 -->
+  <line x1="439" y1="128" x2="461" y2="128" stroke="#10b981" stroke-width="1.5" opacity="0.5" marker-end="url(#arrow-cyan)"/>
+  <text x="450" y="122" text-anchor="middle" font-size="7" fill="#334155">bge-m3</text>
+
+  <!-- STEP 4: Embeddings -->
+  <rect x="464" y="78" width="120" height="100" rx="6" fill="url(#card1)" stroke="#f59e0b" stroke-width="1" opacity="0.9"/>
+  <rect x="464" y="78" width="120" height="4" rx="2" fill="url(#accent4)"/>
+  <text x="524" y="100" text-anchor="middle" font-size="22" fill="#f59e0b" filter="url(#glow1)">🧮</text>
+  <text x="524" y="118" text-anchor="middle" font-size="8" fill="#94a3b8" letter-spacing="2">STEP 04</text>
+  <text x="524" y="133" text-anchor="middle" font-size="10" fill="#e2e8f0" font-weight="bold">Embeddings</text>
+  <text x="524" y="148" text-anchor="middle" font-size="8" fill="#64748b">Vector store</text>
+  <text x="524" y="163" text-anchor="middle" font-size="7" fill="#334155">.joblib pickle</text>
+
+  <!-- Arrow 4→5 -->
+  <line x1="587" y1="128" x2="609" y2="128" stroke="#f59e0b" stroke-width="1.5" opacity="0.5" marker-end="url(#arrow-cyan)"/>
+  <text x="598" y="122" text-anchor="middle" font-size="7" fill="#334155">cosine sim</text>
+
+  <!-- STEP 5: RAG Query -->
+  <rect x="612" y="78" width="120" height="100" rx="6" fill="url(#card1)" stroke="#ef4444" stroke-width="1" opacity="0.9"/>
+  <rect x="612" y="78" width="120" height="4" rx="2" fill="url(#accent5)"/>
+  <text x="672" y="100" text-anchor="middle" font-size="22" fill="#ef4444" filter="url(#glow1)">🔍</text>
+  <text x="672" y="118" text-anchor="middle" font-size="8" fill="#94a3b8" letter-spacing="2">STEP 05</text>
+  <text x="672" y="133" text-anchor="middle" font-size="10" fill="#e2e8f0" font-weight="bold">RAG Retrieval</text>
+  <text x="672" y="148" text-anchor="middle" font-size="8" fill="#64748b">Top-K chunks</text>
+  <text x="672" y="163" text-anchor="middle" font-size="7" fill="#334155">semantic search</text>
+
+  <!-- Arrow 5→6 -->
+  <line x1="735" y1="128" x2="757" y2="128" stroke="#ef4444" stroke-width="1.5" opacity="0.5" marker-end="url(#arrow-cyan)"/>
+  <text x="746" y="122" text-anchor="middle" font-size="7" fill="#334155">Ollama</text>
+
+  <!-- STEP 6: LLM -->
+  <rect x="760" y="78" width="120" height="100" rx="6" fill="url(#card1)" stroke="#00d4ff" stroke-width="1.5" opacity="0.9" filter="url(#glow1)"/>
+  <rect x="760" y="78" width="120" height="4" rx="2" fill="url(#accent1)"/>
+  <text x="820" y="100" text-anchor="middle" font-size="22" fill="#00d4ff" filter="url(#glow2)">🤖</text>
+  <text x="820" y="118" text-anchor="middle" font-size="8" fill="#94a3b8" letter-spacing="2">STEP 06</text>
+  <text x="820" y="133" text-anchor="middle" font-size="10" fill="#e2e8f0" font-weight="bold">LLM Answer</text>
+  <text x="820" y="148" text-anchor="middle" font-size="8" fill="#64748b">With timestamps</text>
+  <text x="820" y="163" text-anchor="middle" font-size="7" fill="#334155">DeepSeek / Qwen</text>
+
+  <!-- Bottom section: JSON example -->
+  <rect x="20" y="200" width="420" height="90" rx="6" fill="#0d1117" stroke="#1e293b" stroke-width="1"/>
+  <text x="36" y="218" font-size="8" fill="#475569" letter-spacing="2">CHUNK METADATA FORMAT</text>
+  <text x="36" y="235" font-size="9" fill="#10b981" font-family="'Courier New', monospace">{</text>
+  <text x="50" y="250" font-size="9" fill="#64748b" font-family="'Courier New', monospace">  <tspan fill="#7c3aed">"video_number"</tspan>: <tspan fill="#f59e0b">"01"</tspan>,</text>
+  <text x="50" y="263" font-size="9" fill="#64748b" font-family="'Courier New', monospace">  <tspan fill="#7c3aed">"start"</tspan>: <tspan fill="#00d4ff">0.0</tspan>,  <tspan fill="#7c3aed">"end"</tspan>: <tspan fill="#00d4ff">5.42</tspan>,</text>
+  <text x="50" y="276" font-size="9" fill="#64748b" font-family="'Courier New', monospace">  <tspan fill="#7c3aed">"text"</tspan>: <tspan fill="#f59e0b">"Data science is..."</tspan></text>
+  <text x="36" y="283" font-size="9" fill="#10b981" font-family="'Courier New', monospace">}</text>
+
+  <!-- Bottom section: tech stack -->
+  <rect x="460" y="200" width="420" height="90" rx="6" fill="#0d1117" stroke="#1e293b" stroke-width="1"/>
+  <text x="476" y="218" font-size="8" fill="#475569" letter-spacing="2">TECH STACK</text>
+  <g font-size="9" font-family="'Courier New', monospace">
+    <text x="476" y="235" fill="#64748b">Transcription  <tspan fill="#00d4ff">OpenAI Whisper medium</tspan></text>
+    <text x="476" y="250" fill="#64748b">Embeddings     <tspan fill="#a855f7">bge-m3 via Ollama</tspan></text>
+    <text x="476" y="265" fill="#64748b">Vector Search  <tspan fill="#10b981">cosine similarity (sklearn)</tspan></text>
+    <text x="476" y="280" fill="#64748b">LLM Inference  <tspan fill="#f59e0b">DeepSeek-R1 / Qwen2.5</tspan></text>
+  </g>
+
+  <!-- Query flow arrow at bottom -->
+  <text x="450" y="318" text-anchor="middle" font-size="9" fill="#334155" letter-spacing="1">USER QUERY FLOW</text>
+  <line x1="100" y1="328" x2="800" y2="328" stroke="#1e293b" stroke-width="1" stroke-dasharray="4,4"/>
+  
+  <!-- Query flow nodes -->
+  <rect x="60" y="338" width="100" height="28" rx="4" fill="#0d1117" stroke="#334155" stroke-width="1"/>
+  <text x="110" y="357" text-anchor="middle" font-size="8" fill="#64748b">User Question</text>
+  
+  <line x1="163" y1="352" x2="183" y2="352" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+  
+  <rect x="185" y="338" width="100" height="28" rx="4" fill="#0d1117" stroke="#334155" stroke-width="1"/>
+  <text x="235" y="357" text-anchor="middle" font-size="8" fill="#64748b">Embed Query</text>
+
+  <line x1="288" y1="352" x2="308" y2="352" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <rect x="310" y="338" width="100" height="28" rx="4" fill="#0d1117" stroke="#334155" stroke-width="1"/>
+  <text x="360" y="357" text-anchor="middle" font-size="8" fill="#64748b">Top-30 Chunks</text>
+
+  <line x1="413" y1="352" x2="433" y2="352" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <rect x="435" y="338" width="100" height="28" rx="4" fill="#0d1117" stroke="#334155" stroke-width="1"/>
+  <text x="485" y="357" text-anchor="middle" font-size="8" fill="#64748b">Build Prompt</text>
+
+  <line x1="538" y1="352" x2="558" y2="352" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <rect x="560" y="338" width="100" height="28" rx="4" fill="#0d1117" stroke="#334155" stroke-width="1"/>
+  <text x="610" y="357" text-anchor="middle" font-size="8" fill="#64748b">LLM Inference</text>
+
+  <line x1="663" y1="352" x2="683" y2="352" stroke="#334155" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <rect x="685" y="338" width="140" height="28" rx="4" fill="#0d1117" stroke="#00d4ff" stroke-width="1"/>
+  <text x="755" y="357" text-anchor="middle" font-size="8" fill="#00d4ff">Answer + Timestamps ✓</text>
+
+  <!-- Footer -->
+  <line x1="20" y1="395" x2="880" y2="395" stroke="#1e293b" stroke-width="1"/>
+  <text x="450" y="411" text-anchor="middle" font-size="8" fill="#1e3a5f" letter-spacing="3">VIDEO RAG PIPELINE — BUILT WITH WHISPER · BGE-M3 · OLLAMA · SKLEARN</text>
+</svg>
