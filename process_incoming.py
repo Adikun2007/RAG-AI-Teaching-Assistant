@@ -1,115 +1,259 @@
-import pandas as pd
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
+import json
+from pathlib import Path
+
 import joblib
+import numpy as np
+import pandas as pd
 import requests
+from sklearn.metrics.pairwise import cosine_similarity
+
 from config import GROQ_API_KEY
 
+
+EMBED_MODEL = "bge-m3"
+GROQ_MODEL = "llama-3.3-70b-versatile"
+
+EMBED_URL = "http://localhost:11434/api/embed"
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+
+DB_PATH = Path("chunks_embeddings.joblib")
+PROMPT_LOG_PATH = Path("prompt.txt")
+RESPONSE_LOG_PATH = Path("response.txt")
+
+TOP_RESULTS = 8
+THRESHOLD = 0.42
+SHOW_DEBUG_SOURCES = False
+
+
+ALLOWED_TOPICS = [
+    "data science", "machine learning", "artificial intelligence", "ai",
+    "deep learning", "python", "sql", "data analyst", "data scientist",
+    "ai engineer", "resume", "interview", "job", "career", "roadmap",
+    "statistics", "pandas", "numpy", "model", "algorithm"
+]
+
+
 def create_embedding(text_list):
-    r = requests.post("http://localhost:11434/api/embed", 
-                    json={"model": "bge-m3",
-                          "input": text_list})
+    response = requests.post(
+        EMBED_URL,
+        json={"model": EMBED_MODEL, "input": text_list},
+        timeout=60
+    )
+    response.raise_for_status()
+    data = response.json()
 
-    embedding = r.json()['embeddings']
-    return embedding
+    if "embeddings" not in data:
+        raise ValueError(f"Ollama embedding error: {data}")
+
+    return data["embeddings"]
 
 
+def is_allowed_question(question):
+    q = question.lower()
+    return any(topic in q for topic in ALLOWED_TOPICS)
 
-def inference(prompt):
-    r = requests.post("https://api.groq.com/openai/v1/chat/completions",
-                    headers={"Authorization": f"Bearer {GROQ_API_KEY}",
-                             "Content-Type": "application/json"},
-                    json={"model": "llama-3.3-70b-versatile",
-                          "messages": [{"role": "user", "content": prompt}]})
-    return r.json()['choices'][0]['message']['content']
 
-df = joblib.load('chunks_embeddings.joblib')
+def format_time(seconds):
+    seconds = int(float(seconds or 0))
+    minutes = seconds // 60
+    seconds = seconds % 60
+    return f"{minutes}:{seconds:02d}"
 
-incoming_query = input("Ask Anything: ")
-query_embedding = create_embedding([incoming_query])[0]
-# print(query_embedding)
 
-# find similarity between query embedding and chunk embeddings
-similarities = cosine_similarity([query_embedding], np.vstack(df['embedding'])).flatten()
-# print(similarities)
+def clean_title(row):
+    title = row.get("video_title")
 
-top_results = 30
-max_indices = similarities.argsort()[::-1][0:top_results]
-# print(max_indices)
+    if pd.isna(title) or title in [None, "", "None"]:
+        title = row.get("source_file")
 
-new_df = df.iloc[max_indices]
-# print(new_df[['video_number', 'video_title', 'text']])
+    if pd.isna(title) or title in [None, "", "None"]:
+        title = "Best matching video"
 
-prompt = f'''You are an expert learning guide for a curated video course on Data Science, Machine Learning, and AI careers. You have access to transcripts from exactly 15 videos:
+    return str(title)
 
-1. What is Data Science + Roadmap
-2. Data Analyst vs Data Scientist vs Data Engineer (Roles Comparison)
-3. Machine Learning Introduction
-4. Machine Learning Complete Roadmap
-5. AI Engineer Roadmap 2026
-6. Geospatial Data Scientist
-7. 14 ML Projects for Internship
-8. How to Get a Job in Data Science
-9. Get a Job IMMEDIATELY as Data Analyst
-10. Data Analyst Portfolio 2026
-11. ML Resume that got 5 Interviews
-12. ATS Friendly Resume
-13. Perfect Data Science Resume (Google)
-14. SQL Interview Questions
-15. Behavioural Interview - STAR Technique
 
-You will be given the top {top_results} most semantically relevant transcript chunks to answer the user's question. Each chunk contains: video_number, video_title, start timestamp (seconds), end timestamp (seconds), and text.
+def retrieve_chunks(df, query):
+    query_embedding = create_embedding([query])[0]
+    chunk_embeddings = np.vstack(df["embedding"].values)
 
-Here are the relevant chunks:
-{new_df[['video_number', 'video_title', 'start', 'end', 'text']].to_json(orient='records')}
+    similarities = cosine_similarity([query_embedding], chunk_embeddings).flatten()
 
----
+    valid_indices = np.where(similarities >= THRESHOLD)[0]
 
-User Question: "{incoming_query}"
+    if len(valid_indices) == 0:
+        return pd.DataFrame(), similarities
 
----
+    sorted_indices = valid_indices[np.argsort(similarities[valid_indices])[::-1]]
+    top_indices = sorted_indices[:TOP_RESULTS]
 
-INSTRUCTIONS:
+    results = df.iloc[top_indices].copy()
+    results["similarity"] = similarities[top_indices]
+    results = results.drop_duplicates(subset=["text"])
 
-1. TOPIC CHECK: If the question is NOT related to data science, machine learning, AI, Python, career advice, resumes, job hunting, SQL, or interviews — respond ONLY with:
-   "I can only answer questions related to Data Science, Machine Learning, AI careers, Python, SQL, Resumes, and Interview Preparation. Please ask something related to these topics!"
+    return results, similarities
 
-2. If the question IS relevant, follow this response structure:
 
-## Answer
-Give a clear, concise, and helpful answer based ONLY on the provided chunks. Do not hallucinate or add information not present in the chunks.
+def build_context(chunks_df):
+    rows = []
 
-## Where to Learn This
-For each relevant video, list:
-- 📹 **Video [number]: [title]**
-  - 📍 Timestamp: [start]s – [end]s (or convert to MM:SS format)
-  - 💡 What is covered at this point: [brief description from the chunk text]
+    for _, row in chunks_df.iterrows():
+        rows.append({
+            "video_title": clean_title(row),
+            "start": format_time(row.get("start", 0)),
+            "end": format_time(min(float(row.get("end", 0)), float(row.get("start", 0)) + 120)),
+            "text": str(row.get("text", ""))[:900]
+        })
 
-## Recommended Watch Order
-If multiple videos are relevant, suggest the best order to watch them for maximum learning.
+    return json.dumps(rows, ensure_ascii=False, indent=2)
 
-## Pro Tip (optional)
-If you can add a genuinely useful insight from the content, add it here.
 
----
+def ask_groq(question, context):
+    system_prompt = """
+You are a helpful Data Science, AI, and career learning assistant.
 
-RULES:
-- Base your answer strictly on the chunk content provided.
-- Always mention specific video numbers and timestamps so the user can navigate directly.
-- Convert seconds to MM:SS format for readability (e.g., 125s → 2:05).
-- If only one video is relevant, skip the "Recommended Watch Order" section.
-- Be conversational but precise.
-- Do not repeat the same chunk information multiple times.
-'''
+Your style:
+- Explain like a clear teacher, similar to ChatGPT or Claude.
+- Use simple beginner-friendly language.
+- Give broad but useful answers.
+- Use headings and bullet points when helpful.
+- Use examples to make concepts easy.
+- Use ONLY the provided transcript context when possible.
+- If the context is limited, give a safe general explanation related to the topic.
+- Do not mention transcript, chunks, retrieval, or context.
+"""
 
-with open('prompt.txt', 'w', encoding='utf-8') as f:
-    f.write(prompt)
+    user_prompt = f"""
+Transcript context:
+{context}
 
-response = inference(prompt)
-print(response)
+User question:
+{question}
 
-with open('response.txt', 'w', encoding='utf-8') as f:
-    f.write(response)
+Write the answer in this format:
 
-for index, row in new_df.iterrows():
-    print(index, "video_number:", row['video_number'], "video_title:", row['video_title'], "text:", row['text'], "start:", row['start'], "end:", row['end'])
+Answer:
+Give a clear explanation in 2-4 short paragraphs.
+
+Include these when useful:
+- Simple definition
+- Why it matters
+- Real-world examples
+- Main components or skills
+- Career or learning path if relevant
+
+Next step:
+- Give one practical next step for a beginner.
+
+Rules:
+- Target length: 180 to 350 words.
+- Use bullet points if they improve clarity.
+- Do not give a one-line answer.
+- Do not be too short.
+- Do not sound robotic.
+- Do not repeat the same point.
+- Do not mention the transcript or context.
+- Do not recommend videos.
+"""
+
+    response = requests.post(
+        GROQ_URL,
+        headers={
+            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Content-Type": "application/json"
+        },
+        json={
+            "model": GROQ_MODEL,
+            "messages": [
+                {"role": "system", "content": system_prompt.strip()},
+                {"role": "user", "content": user_prompt.strip()}
+            ],
+            "temperature": 0.5,
+            "top_p": 0.9,
+            "max_tokens": 700,
+        },
+        timeout=60
+    )
+
+    response_json = response.json()
+
+    if "choices" not in response_json:
+        print("\nGroq API Error:")
+        print(response_json)
+        error_info = response_json.get("error", {})
+        raise ValueError(error_info.get("message", response_json))
+
+    PROMPT_LOG_PATH.write_text(user_prompt, encoding="utf-8")
+
+    answer = response_json["choices"][0]["message"]["content"].strip()
+    RESPONSE_LOG_PATH.write_text(answer, encoding="utf-8")
+
+    return answer
+
+
+def print_best_video(chunks_df):
+    if chunks_df.empty:
+        print("\nBest video:")
+        print("- No strong video match found")
+        return
+
+    best = chunks_df.iloc[0]
+    title = clean_title(best)
+
+    start = float(best.get("start", 0))
+    end = float(best.get("end", start + 60))
+    end = min(end, start + 120)
+
+    print("\nBest video:")
+    print(f"- {title}")
+    print(f"- {format_time(start)} -> {format_time(end)}")
+
+
+def main():
+    if not DB_PATH.exists():
+        print("chunks_embeddings.joblib not found. Run your embedding script first.")
+        return
+
+    df = joblib.load(DB_PATH)
+
+    incoming_query = input("Ask Anything: ").strip()
+
+    if not incoming_query:
+        print("Please ask a question.")
+        return
+
+    if not is_allowed_question(incoming_query):
+        print("Answer:")
+        print("- I only answer Data Science, AI, Python, SQL, resume, and career questions.")
+        return
+
+    chunks_df, _ = retrieve_chunks(df, incoming_query)
+
+    if chunks_df.empty:
+        print("Answer:")
+        print("- I could not find useful content for this question.")
+        print("\nNext step:")
+        print("- Try asking with simpler or more specific words.")
+        return
+
+    context = build_context(chunks_df)
+    response = ask_groq(incoming_query, context)
+
+    print()
+    print(response)
+    print_best_video(chunks_df)
+
+    if SHOW_DEBUG_SOURCES:
+        print("\nDebug sources:")
+        for index, row in chunks_df.iterrows():
+            print(
+                index,
+                "video_number:", row.get("video_number"),
+                "video_title:", row.get("video_title"),
+                "start:", row.get("start"),
+                "end:", row.get("end"),
+                "similarity:", round(row.get("similarity", 0), 3),
+            )
+
+
+if __name__ == "__main__":
+    main()

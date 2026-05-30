@@ -1,0 +1,207 @@
+{
+    "video_number": 7,
+    "video_title": "07 ml projects for internship.mp3",
+    "source_file": "07_ml_projects_for_internship.mp3.json",
+    "total_chunks": 22,
+    "chunks": [
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 0.0,
+            "end": 24.72,
+            "text": "You won't believe how stupid I was when I was first starting out. I had just stumbled onto machine learning and I became really passionate and had this huge dream of building big stuff with machine learning. But here's the problem, I was stuck building the same boring projects over and over. I did not have a mentor to help me out here, but I am here for you guys. I did not have a mentor to help me out here, but I am here for you guys. So I am confident that you guys will build the perfect projects to help you land a machine learning job in 2026. Hey guys, I am Srimanthi and I am currently working as a machine learning engineer at a tough US startup.",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 23.76,
+            "end": 48.24,
+            "text": "tough US startup. You know the tagging data set that everyone has built, or the MNILC digit classification, or the sentiment analysis project that everyone adds to their resume and feels proud of and then suddenly wonders, why did my resume get rejected? Don't worry though, I have got you covered with 14 recruiter-friendly, unemployment-proof Don't worry though, I have got you covered with 14 recruiter-friendly, unemployment-proof machine learning projects that go from total beginner to AI wizard. And yes, trust me, they are guaranteed to land you a machine learning job or an AI job in 2026. So let's get started.",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 47.120000000000005,
+            "end": 76.08,
+            "text": "So let's get started. Before we start, I'll rate each project on 4 things. First is difficulty, second is resume value, how impressive it looks. Third is learning value, how much you actually learn. Fourth is real-world impact. Fourth is real-world impact. Trust me, recruiters are big on real-world impact. I'll also leave all these links in the description. Check that out. First comes, build your own linear regression from scratch. First comes, build your own linear regression from scratch. With what? Why are we jumping to this already? Because if you can't understand the basics of how machine learning works, good luck explaining to your boss why your deep learning model or machine learning model is making weird predictions.",
+            "source_count": 15
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 72.4,
+            "end": 100.16,
+            "text": "to your boss why your deep learning model or machine learning model is making weird predictions. You'll basically build linear regression from scratch, use no scikit-learn, just code, and truly understand what's happening under the hood. Someday at 2am while debugging a neural network model, you'll thank me for this. In ratings, difficulty is 3 out of 10, not that difficult. In ratings, difficulty is 3 out of 10, not that difficult. Resume value is 1 out of 10 or 0 out of 10. It's just a beginner-friendly project and has 0 value to your resume. Third, learning value, 9 out of 10. I've got this video on my channel for end-to-end linear regression and let's move on to the",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 96.8,
+            "end": 126.8,
+            "text": "I've got this video on my channel for end-to-end linear regression and let's move on to the next one because this is good for you but not good for your resume. Second comes, housing price predictor, my favorite linear regression example project. You'll learn here regression analysis and feature selection. Difficulty is 2 out of 10, resume value 0 out of 10, Difficulty is 2 out of 10, resume value 0 out of 10, learning value maybe 6 out of 10. So again, 0 resume value but really good for clearing your basics and good at fundamental stuff. I've got this on my channel too, definitely check it out, all free. I know, I know, you're getting bored now.",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 125.12,
+            "end": 153.12,
+            "text": "I know, I know, you're getting bored now. Now you need something which actually adds value to your resume. So now comes multi-agent job search system with QA and Python. Yeah, now things are getting interesting. This project is about implementing a simple AI agent that will not only help you with This project is about implementing a simple AI agent that will not only help you with your job search but also is an excellent addition to your resume. You'll never get anywhere such a detailed free project. You'll export the USA jobs API, build your entire crew, crew AI, first agent, cover letter agent, messaging agent and let everything communicate with each other along",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 149.12,
+            "end": 176.48000000000002,
+            "text": "cover letter agent, messaging agent and let everything communicate with each other along with an interactive web interface. You can start the project here and here's the entire task. Ratings difficulty 7 out of 10, resume value 10 out of 10, finally one that you can actually put on your resume. finally one that you can actually put on your resume. Multi-agent plus LLM plus Streamlit plus API screams hire me. Now learning value 10 out of 10, agents, orchestration, LLMs, deployment. Probably the most important skills you'll ever need when you're trying to become an AI engineer or an ML engineer.",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 175.36,
+            "end": 207.28,
+            "text": "engineer or an ML engineer. Now comes the miss classification system, Gantz versus Stokes. Yeah, yeah, I know it's very simple. Trust me, it's harder than it sounds. You will build your first convolutional neural network, CNN. You will build your first convolutional neural network, CNN. Basic PyTorch tensor manipulation, image classification, understanding everything, loss, training, model conversion, deployment, appendix, and image processing, CNN, squeeze net, ResNet, conclusion, explainable, AI, everything. Perfect. Perfect. With my affiliate, you can get additional 10% off. I know you're skeptical about affiliates, but trust me, I only promote those things that I genuinely love. And I genuinely love educative.io's content.",
+            "source_count": 15
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 204.96,
+            "end": 229.36,
+            "text": "And I genuinely love educative.io's content. I've had the subscription for over a year now, and those who have taken career counseling from me, they know the truth. It helps with upscaling so, so much, and I highly, highly recommend it. Now comes AI travel planner with multi-agent A2A protocol. Now comes AI travel planner with multi-agent A2A protocol. Now comes basically the super duper important stuff, something that will add even value to your resume. Instead of manually juggling flights, hotels, and attractions, you will build a multi-agent travel assistant that coordinates everything for you.",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 226.96,
+            "end": 253.28000000000003,
+            "text": "travel assistant that coordinates everything for you. Using the A2A agent-to-agent protocol. Yep, recruiters look for whether you have industry knowledge or not. And Google's A2A protocol is so, so important. Difficulty 7 out of 10. Difficulty 7 out of 10. Resume value 10 out of 10. Yep. Multi-agent plus A2A plus real APIs gives you the serious agentic systems credit that you need in your resume. you need in your resume. Learning value 10 out of 10. Impact 10 out of 10. Genuinely useful for your own travel and a great demo project. The link's in the description.",
+            "source_count": 15
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 252.08,
+            "end": 274.15999999999997,
+            "text": "The link's in the description. Next comes multi-agent research assistant with autogen. Best one so far, according to me. Instead of manually hunting for papers, skimming PDFs, and stitching together notes, you will build a multi-agent research assistant that does the heavy lifting using autogen. build a multi-agent research assistant that does the heavy lifting using autogen. These projects bring 100% real-world impact and can turn into startups too if you know how to spin the wheel properly. And that's why it's like the best projects for you. And recruiters love it.",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 273.03999999999996,
+            "end": 297.36,
+            "text": "And recruiters love it. Difficulty 8 out of 10. Resume value 10 out of 10. Again, autogen plus multi-agent orchestration plus research workflow is highly, highly impressive, even to me as an interviewer. even to me as an interviewer. Now comes recommendation system. Time to build your own recommendation system. You'll learn collaborative filtering, content-based recommendations. It's not really that difficult either. It's not really that difficult either. Pretty good for your resume. Difficulty 8 out of 10. Resume value again 10 out of 10. Trust me on this.",
+            "source_count": 15
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 296.56,
+            "end": 324.24,
+            "text": "Trust me on this. Learning value 10 out of 10. Impact 10 out of 10. Definitely add it to your resume today. Don't waste your time. Don't waste your time. Now comes language model from scratch. No, no, not building the next GPT yet. But we're going to create something that understands text starting from simple and jumps all the way to basic transformer architecture. way to basic transformer architecture. Difficulty 10 out of 10. The potential mechanisms are really difficult, but they're amazing. They're amazing for you. I'm sorry to say resume value 1 out of 10 because, well, this is something that everyone will do.",
+            "source_count": 15
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 318.32,
+            "end": 344.71999999999997,
+            "text": "I'm sorry to say resume value 1 out of 10 because, well, this is something that everyone will do. And everyone does once in their life. So it's not going to add much value to your resume, but it's really important for learning value is 10 out of 10. So the agentic systems and the agentic AI projects that I said, those actually add value So the agentic systems and the agentic AI projects that I said, those actually add value to your resume because those are the ones that you are doing. And those are the industry work that you have to do when you get into the company. So the companies love them. Next comes the Amazon machine learning challenge 2024.",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 342.08,
+            "end": 367.91999999999996,
+            "text": "Next comes the Amazon machine learning challenge 2024. In this hackathon, the goal is to create a machine learning model that extracts NTP values from images. Fine-tuning was the way to go. Difficulty again, 9 out of 10. Difficulty again, 9 out of 10. Resume value 8 out of 10 because it's already been done and it's already a hackathon that's already present online. But nevertheless, it's a good addition to your resume. Learning value 10 out of 10. Learning value 10 out of 10. Impact 10 out of 10. It teaches multiple fundamental concepts. So one of the best according to me. I've got this entire project on my channel.",
+            "source_count": 15
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 366.15999999999997,
+            "end": 392.4,
+            "text": "I've got this entire project on my channel. First video is a discussion with AIR12 in the Amazon ML challenge 2024. Who has described how they worked on the hackathon. And second video is me solving the entire hackathon by myself using Quent. And a word of advice from your big sis. And a word of advice from your big sis. Definitely target Amazon ML challenge 2025. It gets you into Amazon really fast and lands you an internship and then a job. In this market, why should you leave this amazing opportunity? Next comes AI financial analyst with DSPY and Slask.",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 389.35999999999996,
+            "end": 415.12,
+            "text": "Next comes AI financial analyst with DSPY and Slask. Another awesome project to separate you from the crowd. I know it might sound huge. DSPY, Slask, but it has zero prerequisites. If you just start the project, you can finish it. If you just start the project, you can finish it. And honestly, finance projects are so well loved. Because you know recruiters get the sense that you're a thrifty guy or a girl. You will build an AI powered financial analyst assistant that lives in a Flask web app. And basically compute financial indicators, ratios, returns, volatility, trends, etc. at scale.",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 410.32,
+            "end": 441.84000000000003,
+            "text": "And basically compute financial indicators, ratios, returns, volatility, trends, etc. at scale. Difficulty 9 out of 10. But resume value 10 out of 10. DSPY plus fast plus finance plus LLMs. It's a strong combo. It's a strong combo. Basically a full-stack AI project. What more can recruiters ask for? Next obviously comes the MLOps pipeline. Welcome to the real world of machine learning. Welcome to the real world of machine learning. This isn't just about building models. It's about getting them into production and keeping them running. You'll build a complete pipeline with model versioning, monitoring, automated retraining. All the stuff that separates playground projects from production systems.",
+            "source_count": 15
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 438.64000000000004,
+            "end": 464.16,
+            "text": "All the stuff that separates playground projects from production systems. Difficulty 9 out of 10. Resume value 10 out of 10. You can finally honestly put MLOps on your resume. And learning value 10 out of 10. And learning value 10 out of 10. Impact 10 out of 10. Of course, the best skill path is here. Really awesome. And I honestly learned MLOps from here when I was first starting out and it was needed in my job. And I honestly learned MLOps from here when I was first starting out and it was needed in my job. Next comes agentic dev workflow with Crew AI. And GitHub MCP server tools. Don't get intimidated. MCP is the ultimate star in your resume.",
+            "source_count": 15
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 462.16,
+            "end": 482.40000000000003,
+            "text": "MCP is the ultimate star in your resume. Trust me when I say this. Only highly skilled engineers have this project in their resume. I know I do. You will build an agentic workflow that pulls from GitHub and turns raw project activity You will build an agentic workflow that pulls from GitHub and turns raw project activity into readable, shareable summaries. Sounds amazing, right? You're basically going to learn about MCP. Honestly, the entire industry is standing on MCP servers right now.",
+            "source_count": 10
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 479.12,
+            "end": 510.15999999999997,
+            "text": "Honestly, the entire industry is standing on MCP servers right now. This project will showcase real world agentic tooling plus developer productivity skills in your portfolio. What more can recruiters ask for? Difficulty 10 out of 10. Difficulty 10 out of 10. Resume value 10 out of 10. Crew AI plus MCP plus GitHub automation is the best combo that anyone can wish for. Learning value 10 out of 10. And impact 10 out of 10. And impact 10 out of 10. Here's the link. Honestly, this is the best according to me and it's guaranteed to get you a job at a top US startup. Now comes the fun part. If at any point of time in solving these projects you get stuck, contact me.",
+            "source_count": 15
+        },
+        {
+            "video_number": 7,
+            "video_title": "07 ml projects for internship.mp3",
+            "source_file": "07_ml_projects_for_internship.mp3.json",
+            "start": 506.47999999999996,
+            "end": 531.0400000000001,
+            "text": "If at any point of time in solving these projects you get stuck, contact me. I'm here for you. You can write out your full queries in YouTube. I'm highly active here. Or on LinkedIn, send me connection request. Or on LinkedIn, send me connection request. I will accept it. But the best way I feel is 1 is to 1 career counseling or talk me. I'll clarify all your doubts, even help you in projects. And if you're happy, I'm happy. And if you're happy, I'm happy. And I'm going to do everything I can to help you to land a job in May 2026. It's my 2026 resolution. What's yours?",
+            "source_count": 14
+        }
+    ],
+    "full_text": " You won't believe how stupid I was when I was first starting out. I had just stumbled onto machine learning and I became really passionate and had this huge dream of building big stuff with machine learning. But here's the problem, I was stuck building the same boring projects over and over. I did not have a mentor to help me out here, but I am here for you guys. So I am confident that you guys will build the perfect projects to help you land a machine learning job in 2026. Hey guys, I am Srimanthi and I am currently working as a machine learning engineer at a tough US startup. You know the tagging data set that everyone has built, or the MNILC digit classification, or the sentiment analysis project that everyone adds to their resume and feels proud of and then suddenly wonders, why did my resume get rejected? Don't worry though, I have got you covered with 14 recruiter-friendly, unemployment-proof machine learning projects that go from total beginner to AI wizard. And yes, trust me, they are guaranteed to land you a machine learning job or an AI job in 2026. So let's get started. Before we start, I'll rate each project on 4 things. First is difficulty, second is resume value, how impressive it looks. Third is learning value, how much you actually learn. Fourth is real-world impact. Trust me, recruiters are big on real-world impact. I'll also leave all these links in the description. Check that out. First comes, build your own linear regression from scratch. With what? Why are we jumping to this already? Because if you can't understand the basics of how machine learning works, good luck explaining to your boss why your deep learning model or machine learning model is making weird predictions. You'll basically build linear regression from scratch, use no scikit-learn, just code, and truly understand what's happening under the hood. Someday at 2am while debugging a neural network model, you'll thank me for this. In ratings, difficulty is 3 out of 10, not that difficult. Resume value is 1 out of 10 or 0 out of 10. It's just a beginner-friendly project and has 0 value to your resume. Third, learning value, 9 out of 10. I've got this video on my channel for end-to-end linear regression and let's move on to the next one because this is good for you but not good for your resume. Second comes, housing price predictor, my favorite linear regression example project. You'll learn here regression analysis and feature selection. Difficulty is 2 out of 10, resume value 0 out of 10, learning value maybe 6 out of 10. So again, 0 resume value but really good for clearing your basics and good at fundamental stuff. I've got this on my channel too, definitely check it out, all free. I know, I know, you're getting bored now. Now you need something which actually adds value to your resume. So now comes multi-agent job search system with QA and Python. Yeah, now things are getting interesting. This project is about implementing a simple AI agent that will not only help you with your job search but also is an excellent addition to your resume. You'll never get anywhere such a detailed free project. You'll export the USA jobs API, build your entire crew, crew AI, first agent, cover letter agent, messaging agent and let everything communicate with each other along with an interactive web interface. You can start the project here and here's the entire task. Ratings difficulty 7 out of 10, resume value 10 out of 10, finally one that you can actually put on your resume. Multi-agent plus LLM plus Streamlit plus API screams hire me. Now learning value 10 out of 10, agents, orchestration, LLMs, deployment. Probably the most important skills you'll ever need when you're trying to become an AI engineer or an ML engineer. Now comes the miss classification system, Gantz versus Stokes. Yeah, yeah, I know it's very simple. Trust me, it's harder than it sounds. You will build your first convolutional neural network, CNN. Basic PyTorch tensor manipulation, image classification, understanding everything, loss, training, model conversion, deployment, appendix, and image processing, CNN, squeeze net, ResNet, conclusion, explainable, AI, everything. Perfect. With my affiliate, you can get additional 10% off. I know you're skeptical about affiliates, but trust me, I only promote those things that I genuinely love. And I genuinely love educative.io's content. I've had the subscription for over a year now, and those who have taken career counseling from me, they know the truth. It helps with upscaling so, so much, and I highly, highly recommend it. Now comes AI travel planner with multi-agent A2A protocol. Now comes basically the super duper important stuff, something that will add even value to your resume. Instead of manually juggling flights, hotels, and attractions, you will build a multi-agent travel assistant that coordinates everything for you. Using the A2A agent-to-agent protocol. Yep, recruiters look for whether you have industry knowledge or not. And Google's A2A protocol is so, so important. Difficulty 7 out of 10. Resume value 10 out of 10. Yep. Multi-agent plus A2A plus real APIs gives you the serious agentic systems credit that you need in your resume. Learning value 10 out of 10. Impact 10 out of 10. Genuinely useful for your own travel and a great demo project. The link's in the description. Next comes multi-agent research assistant with autogen. Best one so far, according to me. Instead of manually hunting for papers, skimming PDFs, and stitching together notes, you will build a multi-agent research assistant that does the heavy lifting using autogen. These projects bring 100% real-world impact and can turn into startups too if you know how to spin the wheel properly. And that's why it's like the best projects for you. And recruiters love it. Difficulty 8 out of 10. Resume value 10 out of 10. Again, autogen plus multi-agent orchestration plus research workflow is highly, highly impressive, even to me as an interviewer. Now comes recommendation system. Time to build your own recommendation system. You'll learn collaborative filtering, content-based recommendations. It's not really that difficult either. Pretty good for your resume. Difficulty 8 out of 10. Resume value again 10 out of 10. Trust me on this. Learning value 10 out of 10. Impact 10 out of 10. Definitely add it to your resume today. Don't waste your time. Now comes language model from scratch. No, no, not building the next GPT yet. But we're going to create something that understands text starting from simple and jumps all the way to basic transformer architecture. Difficulty 10 out of 10. The potential mechanisms are really difficult, but they're amazing. They're amazing for you. I'm sorry to say resume value 1 out of 10 because, well, this is something that everyone will do. And everyone does once in their life. So it's not going to add much value to your resume, but it's really important for learning value is 10 out of 10. So the agentic systems and the agentic AI projects that I said, those actually add value to your resume because those are the ones that you are doing. And those are the industry work that you have to do when you get into the company. So the companies love them. Next comes the Amazon machine learning challenge 2024. In this hackathon, the goal is to create a machine learning model that extracts NTP values from images. Fine-tuning was the way to go. Difficulty again, 9 out of 10. Resume value 8 out of 10 because it's already been done and it's already a hackathon that's already present online. But nevertheless, it's a good addition to your resume. Learning value 10 out of 10. Impact 10 out of 10. It teaches multiple fundamental concepts. So one of the best according to me. I've got this entire project on my channel. First video is a discussion with AIR12 in the Amazon ML challenge 2024. Who has described how they worked on the hackathon. And second video is me solving the entire hackathon by myself using Quent. And a word of advice from your big sis. Definitely target Amazon ML challenge 2025. It gets you into Amazon really fast and lands you an internship and then a job. In this market, why should you leave this amazing opportunity? Next comes AI financial analyst with DSPY and Slask. Another awesome project to separate you from the crowd. I know it might sound huge. DSPY, Slask, but it has zero prerequisites. If you just start the project, you can finish it. And honestly, finance projects are so well loved. Because you know recruiters get the sense that you're a thrifty guy or a girl. You will build an AI powered financial analyst assistant that lives in a Flask web app. And basically compute financial indicators, ratios, returns, volatility, trends, etc. at scale. Difficulty 9 out of 10. But resume value 10 out of 10. DSPY plus fast plus finance plus LLMs. It's a strong combo. Basically a full-stack AI project. What more can recruiters ask for? Next obviously comes the MLOps pipeline. Welcome to the real world of machine learning. This isn't just about building models. It's about getting them into production and keeping them running. You'll build a complete pipeline with model versioning, monitoring, automated retraining. All the stuff that separates playground projects from production systems. Difficulty 9 out of 10. Resume value 10 out of 10. You can finally honestly put MLOps on your resume. And learning value 10 out of 10. Impact 10 out of 10. Of course, the best skill path is here. Really awesome. And I honestly learned MLOps from here when I was first starting out and it was needed in my job. Next comes agentic dev workflow with Crew AI. And GitHub MCP server tools. Don't get intimidated. MCP is the ultimate star in your resume. Trust me when I say this. Only highly skilled engineers have this project in their resume. I know I do. You will build an agentic workflow that pulls from GitHub and turns raw project activity into readable, shareable summaries. Sounds amazing, right? You're basically going to learn about MCP. Honestly, the entire industry is standing on MCP servers right now. This project will showcase real world agentic tooling plus developer productivity skills in your portfolio. What more can recruiters ask for? Difficulty 10 out of 10. Resume value 10 out of 10. Crew AI plus MCP plus GitHub automation is the best combo that anyone can wish for. Learning value 10 out of 10. And impact 10 out of 10. Here's the link. Honestly, this is the best according to me and it's guaranteed to get you a job at a top US startup. Now comes the fun part. If at any point of time in solving these projects you get stuck, contact me. I'm here for you. You can write out your full queries in YouTube. I'm highly active here. Or on LinkedIn, send me connection request. I will accept it. But the best way I feel is 1 is to 1 career counseling or talk me. I'll clarify all your doubts, even help you in projects. And if you're happy, I'm happy. And I'm going to do everything I can to help you to land a job in May 2026. It's my 2026 resolution. What's yours?"
+}

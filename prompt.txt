@@ -1,60 +1,80 @@
-You are an expert learning guide for a curated video course on Data Science, Machine Learning, and AI careers. You have access to transcripts from exactly 15 videos:
 
-1. What is Data Science + Roadmap
-2. Data Analyst vs Data Scientist vs Data Engineer (Roles Comparison)
-3. Machine Learning Introduction
-4. Machine Learning Complete Roadmap
-5. AI Engineer Roadmap 2026
-6. Geospatial Data Scientist
-7. 14 ML Projects for Internship
-8. How to Get a Job in Data Science
-9. Get a Job IMMEDIATELY as Data Analyst
-10. Data Analyst Portfolio 2026
-11. ML Resume that got 5 Interviews
-12. ATS Friendly Resume
-13. Perfect Data Science Resume (Google)
-14. SQL Interview Questions
-15. Behavioural Interview - STAR Technique
+Transcript context:
+[
+  {
+    "video_title": "01 what is data science roadmap.mp3",
+    "start": "0:00",
+    "end": "0:37",
+    "text": "Hi everyone, welcome to Apto College. Today we will talk about what is data science exactly and if we want to make a career in the field of data science, then what can be its step by step path. First of all, let's talk about data science. Now we have heard things like machine learning, artificial intelligence in recent years. And in fact, we have recently seen chat GPT. And in fact, we have recently seen chat GPT. All these things are possible because of data science. Now to understand data science, we take the example of Netflix. If we use a service like Netflix or Prime Video and we watch a lot of horror movies on it, then what will Netflix do if a new horror movie comes, then it will suggest it to us."
+  },
+  {
+    "video_title": "01 what is data science roadmap.mp3",
+    "start": "10:52",
+    "end": "11:31",
+    "text": "One part of this is our business side, that is, if we have taken insights from data, then how well can we apply it to the growth of the company. So in whichever part we are most interested in, we can specialize in it. we can specialize in it. If we are more interested in data, if we are interested in algorithms, then after machine learning, we can learn deep learning algorithms, we can explore neural networks, we can explore neural networks, artificial neural networks, CNN networks. If we are most interested in business side, then we can look at more advanced visualization tools. So data science is a field in which not only basics,"
+  },
+  {
+    "video_title": "02 data analyst vs scientist vs engineer.mp3",
+    "start": "5:42",
+    "end": "6:22",
+    "text": "Data science is basically all of this and plus something extra. That is, data science is even bigger than this, if we look at it in a way. Because the data scientist inside it works on machine learning, deep learning, generative AI or any normal AI problem. That means he knows these things. Plus, what does he know? Plus, he has a good command on mathematical tools. Plus, what does he know? Plus, he has a good command on mathematical tools. Mathematical tools are the concepts of our deep maths. Like statistics, probability, linear algebra, calculus. He has a strong command on all of these concepts. And he has a good knowledge of different tools."
+  },
+  {
+    "video_title": "01 what is data science roadmap.mp3",
+    "start": "11:28",
+    "end": "12:08",
+    "text": "So data science is a field in which not only basics, but also we are most interested in any domain, we can gain specialization over the years. Generally, our core algorithm-based roles, which include machine learning and deep learning, which include machine learning and deep learning, many companies like Google and Microsoft require that you already have a master's or PhD. So if we want to go into the data science field especially in algorithms or big data side, especially in algorithms or big data side, then if we are actually interested in it, then we can consider that over the years we will be taking a master's degree. There are many other things available"
+  },
+  {
+    "video_title": "01 what is data science roadmap.mp3",
+    "start": "1:23",
+    "end": "1:57",
+    "text": "On the basis of which we can keep the users hooked on our platforms. This is an example of a lot of business problems that solutions are taken out using data science. So if you want to understand data science, then it is a mix of math, statistics, programming, data and machine learning. So there are many different things that if you take out a mixture, then it becomes data science. Our machine learning jobs come under data science, our data analyst jobs come under it, our jobs based on big data come under it."
+  },
+  {
+    "video_title": "01 what is data science roadmap.mp3",
+    "start": "2:49",
+    "end": "3:19",
+    "text": "Now all the topics related to data science, all the information that we are sharing today, you will get all of it in notes format. So you will get a link in the description box below, you can download it from there. Now the field of data science is not necessary that we are studying math or we are coming from the computer science branch. Any person can come and if they invest a lot of time in data science, they can actually learn these skills and make a good career. Now the first step that comes in this journey is to learn a programming language."
+  },
+  {
+    "video_title": "01 what is data science roadmap.mp3",
+    "start": "1:48",
+    "end": "2:29",
+    "text": "Our machine learning jobs come under data science, our data analyst jobs come under it, our jobs based on big data come under it. Now we know that there are a lot of big companies and they have a lot of data. So when there is a big company, we don't just call its data, we call it big data because companies have so much data today. Now the job of a data scientist is to collect the data, analyze it, process it and finally get some useful insights from it. Useful insights means to get useful information, information that can be useful to their company,"
+  },
+  {
+    "video_title": "13 perfect data science resume.mp3",
+    "start": "1:04",
+    "end": "1:38",
+    "text": "the updated version of it where I made a revision myself. Lastly, I'm happy to announce that I'm launching a new service on dataintv.com, so make sure you stick around until the end of the video to learn about what this new service is about. In order to have a data science resume, you have to first of all have experience. Without experience, you're not going to have much place in your resume. Without experience, you're not going to have much place in your resume. So how do you go about gaining relevant experience or data science job? The number one thing is to first of all, get a job in data science, whether it's an internship or an entry level position. If you're currently a data scientist, then you are currently doing a project that you"
+  }
+]
 
-You will be given the top 30 most semantically relevant transcript chunks to answer the user's question. Each chunk contains: video_number, video_title, start timestamp (seconds), end timestamp (seconds), and text.
+User question:
+what is data science
 
-Here are the relevant chunks:
-[{"video_number":"01","video_title":"what is data science roadmap","start":482.68,"end":485.68,"text":" Now how to learn machine learning, where to start,"},{"video_number":"03","video_title":"machine learning introduction","start":353.16,"end":357.16,"text":" Don't you ever wonder how machine learning is possible today?"},{"video_number":"03","video_title":"machine learning introduction","start":13.92,"end":20.34,"text":" Well, that's called machine learning. But it's about much more than just learning. It's also about understanding and arguing."},{"video_number":"02","video_title":"data analyst vs scientist vs engineer","start":119.0,"end":129.0,"text":" Now when we talk about machine learning, ML is the subset of AI in which we use data and put a lot of sophisticated algorithms on it to make productions."},{"video_number":"02","video_title":"data analyst vs scientist vs engineer","start":201.0,"end":207.0,"text":" Now this is machine learning. Machine learning has a subset which we call deep learning."},{"video_number":"01","video_title":"what is data science roadmap","start":701.0,"end":704.0,"text":" which include machine learning and deep learning,"},{"video_number":"04","video_title":"machine learning roadmap","start":22.72,"end":25.52,"text":" This is the main language used in machine learning."},{"video_number":"05","video_title":"ai engineer roadmap 2026","start":405.44,"end":410.08,"text":" The majority of machine learning work is basically recommendations and predictions."},{"video_number":"02","video_title":"data analyst vs scientist vs engineer","start":105.0,"end":111.0,"text":" All machine learning, that is, all ML, is all AI."},{"video_number":"02","video_title":"data analyst vs scientist vs engineer","start":749.0,"end":751.0,"text":" you are taking machine learning experience,"},{"video_number":"13","video_title":"perfect data science resume","start":541.4,"end":545.84,"text":" So if you know machine learning, if you know deep learning or clustering, that's really"},{"video_number":"04","video_title":"machine learning roadmap","start":6.72,"end":13.12,"text":" Now, machine learning includes making such models that are learned from data so that you can make a pre-evaluation or decision."},{"video_number":"07","video_title":"ml projects for internship","start":427.84,"end":429.6,"text":" Welcome to the real world of machine learning."},{"video_number":"01","video_title":"what is data science roadmap","start":462.64,"end":466.64,"text":" i.e. applying machine learning algorithms on data."},{"video_number":"05","video_title":"ai engineer roadmap 2026","start":397.84,"end":400.48,"text":" The second step in data science is learning about machine learning."},{"video_number":"03","video_title":"machine learning introduction","start":20.34,"end":24.24,"text":" So today we get to know the basics of machine learning."},{"video_number":"02","video_title":"data analyst vs scientist vs engineer","start":144.0,"end":150.0,"text":" Supervised learning is the type of machine learning in which we have a lot of data, all that is labeled data."},{"video_number":"08","video_title":"how to get job data science","start":271.52,"end":275.36,"text":" I have some machine learning projects. I have a"},{"video_number":"02","video_title":"data analyst vs scientist vs engineer","start":100.0,"end":105.0,"text":" And artificial intelligence has another sub-domain, which we call machine learning."},{"video_number":"05","video_title":"ai engineer roadmap 2026","start":400.48,"end":402.56,"text":" There are broadly three categories of machine learning."},{"video_number":"02","video_title":"data analyst vs scientist vs engineer","start":571.0,"end":576.0,"text":" So all this work in which machine learning algorithms are being applied,"},{"video_number":"02","video_title":"data analyst vs scientist vs engineer","start":563.0,"end":565.0,"text":" We will apply machine learning algorithms."},{"video_number":"13","video_title":"perfect data science resume","start":121.72,"end":126.48,"text":" It gives you hands on experience in data analysis and machine learning."},{"video_number":"05","video_title":"ai engineer roadmap 2026","start":479.12,"end":488.56,"text":" So to summarize, in machine learning, there are many different algorithms like regression, classification, decision trees, SVM, support vector machines, clustering or reinforcement learning."},{"video_number":"02","video_title":"data analyst vs scientist vs engineer","start":335.0,"end":339.0,"text":" Now, this is all about AI machine learning, deep learning and generative AI."},{"video_number":"11","video_title":"ml resume 5 interviews","start":0.0,"end":4.52,"text":" Hey, ever wondered what it takes to learn machine learning interviews at dream companies"},{"video_number":"03","video_title":"machine learning introduction","start":301.16,"end":302.16,"text":" This is supervised learning."},{"video_number":"02","video_title":"data analyst vs scientist vs engineer","start":114.0,"end":119.0,"text":" Like our rule-based AI is not machine learning, but it is still part of AI."},{"video_number":"01","video_title":"what is data science roadmap","start":12.8,"end":17.6,"text":" Now we have heard things like machine learning, artificial intelligence in recent years."},{"video_number":"08","video_title":"how to get job data science","start":84.88,"end":90.0,"text":" using machine learning. When you help people for free especially"}]
+Write the answer in this format:
 
----
+Answer:
+Give a clear explanation in 2-4 short paragraphs.
 
-User Question: "what is machine learning"
+Include these when useful:
+- Simple definition
+- Why it matters
+- Real-world examples
+- Main components or skills
+- Career or learning path if relevant
 
----
+Next step:
+- Give one practical next step for a beginner.
 
-INSTRUCTIONS:
-
-1. TOPIC CHECK: If the question is NOT related to data science, machine learning, AI, Python, career advice, resumes, job hunting, SQL, or interviews — respond ONLY with:
-   "I can only answer questions related to Data Science, Machine Learning, AI careers, Python, SQL, Resumes, and Interview Preparation. Please ask something related to these topics!"
-
-2. If the question IS relevant, follow this response structure:
-
-## Answer
-Give a clear, concise, and helpful answer based ONLY on the provided chunks. Do not hallucinate or add information not present in the chunks.
-
-## Where to Learn This
-For each relevant video, list:
-- 📹 **Video [number]: [title]**
-  - 📍 Timestamp: [start]s – [end]s (or convert to MM:SS format)
-  - 💡 What is covered at this point: [brief description from the chunk text]
-
-## Recommended Watch Order
-If multiple videos are relevant, suggest the best order to watch them for maximum learning.
-
-## Pro Tip (optional)
-If you can add a genuinely useful insight from the content, add it here.
-
----
-
-RULES:
-- Base your answer strictly on the chunk content provided.
-- Always mention specific video numbers and timestamps so the user can navigate directly.
-- Convert seconds to MM:SS format for readability (e.g., 125s → 2:05).
-- If only one video is relevant, skip the "Recommended Watch Order" section.
-- Be conversational but precise.
-- Do not repeat the same chunk information multiple times.
+Rules:
+- Target length: 180 to 350 words.
+- Use bullet points if they improve clarity.
+- Do not give a one-line answer.
+- Do not be too short.
+- Do not sound robotic.
+- Do not repeat the same point.
+- Do not mention the transcript or context.
+- Do not recommend videos.

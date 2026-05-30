@@ -1,0 +1,234 @@
+{
+    "video_number": 2,
+    "video_title": "02 data analyst vs scientist vs engineer.mp3",
+    "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+    "total_chunks": 25,
+    "chunks": [
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 0.0,
+            "end": 38.0,
+            "text": "Hi everyone and welcome to PNK College. Today we will discuss in detail about the differences between data science, data analytics and data engineering. Whenever we start exploring the field of data science, we get to hear different names. But because we don't know the exact meaning of these professions or domains, we get confused. So in today's session, we will be exploring in detail what are the differences between a data scientist, a data analyst and a data engineer. We will discuss the profession that we should choose and what skills we should have before we start applying for a job.",
+            "source_count": 5
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 26.0,
+            "end": 78.0,
+            "text": "We will discuss the profession that we should choose and what skills we should have before we start applying for a job. And what kind of work we should actually do in the field. Before we talk about the fields, we should know some basic terms. For example, we have heard AI, machine learning, deep learning, all these terms are related to data science or in fact, in general. So first of all, we will talk about their differences. So first of all, we will talk about their differences. Let's start with AI. The broadest term, the major term that we get to hear is AI. When we talk about AI, it's a very broad term. AI means when we teach our machines to think on their own and to take decisions on their own. For example, today we have seen a lot of practical implementations of AI.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 74.0,
+            "end": 114.0,
+            "text": "For example, today we have seen a lot of practical implementations of AI. Like chat, GPT, mid journey and Dali. Or we have seen the recommendation engine of Netflix. That according to the movie we are watching, which movie should we watch next? Or our self-driving cars, our voice assistants like Siri, Alexa, Google. Or our self-driving cars, our voice assistants like Siri, Alexa, Google. All these are real-life implementations of artificial intelligence. And artificial intelligence has another sub-domain, which we call machine learning. All machine learning, that is, all ML, is all AI. Yes, there can be some AI that is not ML based.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 111.0,
+            "end": 140.0,
+            "text": "Yes, there can be some AI that is not ML based. Like our rule-based AI is not machine learning, but it is still part of AI. Now when we talk about machine learning, ML is the subset of AI in which we use data and put a lot of sophisticated algorithms on it to make productions. The maximum of all the AI we see in today's data is implemented using machine learning techniques. Now if we want to study machine learning in detail, it has three sub-types.",
+            "source_count": 5
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 135.0,
+            "end": 183.0,
+            "text": "Now if we want to study machine learning in detail, it has three sub-types. Supervised learning, unsupervised learning and reinforcement learning. Supervised learning is the type of machine learning in which we have a lot of data, all that is labeled data. That is, we know what output should come according to which input. For example, if we are building a system for spam filtering in emails, For example, if we are building a system for spam filtering in emails, then we already have such data in which we have a lot of emails and we also have an output that which email is spam and which is not spam. So here we will use supervised learning to find out how many percent of the email in the future is spam and how many emails are genuine. The second category is unsupervised learning in which we have output unknown. In this, we generally solve clustering or associative problems.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 179.0,
+            "end": 234.0,
+            "text": "In this, we generally solve clustering or associative problems. And the third type is reinforcement learning in which we generally have some data labeled and some data unlabeled. Reinforcement learning has a very good implementation. We have recommendation systems, that is, what kind of content we should see in the future based on what we saw in the old content. Now this is machine learning. Machine learning has a subset which we call deep learning. Now this is machine learning. Machine learning has a subset which we call deep learning. Basically, we talk about neural networks in deep learning. Neural networks mean that we are trying to build this type of machine learning algorithms in deep learning that can mimic our human brain. Our human brain works on neural networks and when we apply layers of many networks in this way, then that network becomes very deep and from here we get the concept of deep learning.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 229.0,
+            "end": 275.0,
+            "text": "then that network becomes very deep and from here we get the concept of deep learning. Deep learning has different categories of neural networks that we are studying. Like ANN, our artificial neural network, CNN, convolutional neural networks or RNN, recurrent neural networks. So, in a way, we can say that deep learning is all about complex neural networks. And then there is another subset of deep learning which we call generative AI or in short, GEN AI. And then there is another subset of deep learning which we call generative AI or in short, GEN AI. Today we have used chat GPT, we have seen software like Dali, we have seen mid journey. All these are the parts of generative AI. We call the complex branch of deep learning as generative AI. Generative AI is the AI that can generate new content, creative content.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 269.0,
+            "end": 312.0,
+            "text": "Generative AI is the AI that can generate new content, creative content. Generative AI can generate new text, new audio, new videos, new images. And this is basically the creative part of AI. That is, this is artistic AI that will generate things that perhaps no one has ever generated before. And that is why it is very sophisticated. And that is why it is very sophisticated. Now, I would like to give a small disclaimer to the beginners here that many times we get to see such tutorials on the internet that in one hour, in two hours, in two and a half hours we will master chat GPT. We will become masters of AI, so we should not get caught up in such things. Chat GPT or in fact generative AI is quite sophisticated AI.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 308.0,
+            "end": 347.0,
+            "text": "Chat GPT or in fact generative AI is quite sophisticated AI. Generally, those who work on chat GPT or generative AI are very good in their field. And many of them have spent at least 10-15 years in this field. Many people even have a PhD. We cannot match that knowledge in a 2-2.5 hour tutorial. We cannot match that knowledge in a 2-2.5 hour tutorial. So we should have this knowledge as a beginner that using chat GPT and building chat GPT is a big difference. Now, this is all about AI machine learning, deep learning and generative AI. Now, how does data science fit in here? Data science is basically all of this and plus something extra.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 342.0,
+            "end": 382.0,
+            "text": "Data science is basically all of this and plus something extra. That is, data science is even bigger than this, if we look at it in a way. Because the data scientist inside it works on machine learning, deep learning, generative AI or any normal AI problem. That means he knows these things. Plus, what does he know? Plus, he has a good command on mathematical tools. Plus, what does he know? Plus, he has a good command on mathematical tools. Mathematical tools are the concepts of our deep maths. Like statistics, probability, linear algebra, calculus. He has a strong command on all of these concepts. And he has a good knowledge of different tools.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 379.0,
+            "end": 406.0,
+            "text": "And he has a good knowledge of different tools. So if we want to go into the field of data science, then in that case, our machine learning should be strong. Along with that, our maths concepts should also be strong because that is what the field demands. So now that we have an idea of basic terms, let's know the difference between data science, data engineer and data analytics. Generally, our entire pipeline is that we bring raw data from somewhere.",
+            "source_count": 5
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 400.0,
+            "end": 444.0,
+            "text": "Generally, our entire pipeline is that we bring raw data from somewhere. We convert it into good data. Then we did some analysis on it. After that, we built a machine learning model on it. And then we got some good results from there, which we applied to our business. And then we got some good results from there, which we applied to our business. If we divide this entire process into four steps, then the first step will be the one in which we collect the data and store it. So this work is generally done by our data engineers. Data engineers have a major responsibility to build a good, stable, scalable infrastructure. Because of which, data analytics or data scientists should be able to get it easily available.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 438.0,
+            "end": 476.0,
+            "text": "Because of which, data analytics or data scientists should be able to get it easily available. And it may sound easy to hear that collect and store data, but it is actually a very complex thing to do. So these data engineers are software engineers. That is, they have a good programming language like Java or C++. It has a strong base, plus they also know how to work on big data. It has a strong base, plus they also know how to work on big data. So to become a data engineer, we should have all these skillsets. After that comes our second and third step. One more thing, these steps can overlap many times. That is, it is possible that one company has only this much work as a data engineer.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 472.0,
+            "end": 507.0,
+            "text": "That is, it is possible that one company has only this much work as a data engineer. Plus, it can be done in any other company. The data engineer does the first step and also does some parts in the second step. So we come to the second step, which is data cleaning and transformation. So our second step is to clean this data and then analyze it, label it. So our second step is to clean this data and then analyze it, label it. The second and third step is generally the work of data analysts. They look at the data and get some useful insights from it. And then how can those insights, that is, the useful information be used to grow a business? They are working on that thing.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 505.0,
+            "end": 535.0,
+            "text": "They are working on that thing. So to become a data analyst, we should have the experience of visualization tools. Like Tableau or Power BI. Along with that, we should have good communication skills in our field. Because we have taken out insights from the data many times. Because we have taken out insights from the data many times. They must be presenting to other people and explaining them. And along with that, if you have basic math or basic programming language like Python, if you have knowledge, then that is considered a big plus. Now this role is generally put in the category of non-technical.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 531.0,
+            "end": 563.0,
+            "text": "Now this role is generally put in the category of non-technical. Because in many companies, data analysts are not coding. Whereas some companies are such that data analysts are coding a little bit. But generally, there is not much coding in this role. So to become a data analyst, we should have all these skillsets. So to become a data analyst, we should have all these skillsets. And finally, the fourth step is to do prediction modeling on data. That is, if we have good data, good clean data, labeled data, then what will we do on that? We will build machine learning models on that.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 561.0,
+            "end": 590.0,
+            "text": "We will build machine learning models on that. We will apply machine learning algorithms. By using that data, we will be building good models that can be used in the company in the future. So all this work in which machine learning algorithms are being applied, this work is done by a data scientist. this work is done by a data scientist. Apart from this, there are some additional things like AB testing. So the testing of this type is also done by our data scientists. So let's summarize once. Generally, this role is of our data engineers.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 588.0,
+            "end": 616.0,
+            "text": "Generally, this role is of our data engineers. This role is of our data analysts. And this role is of our data scientists. Now I will give you one more disclaimer here. These terms are used in different companies in different ways. These terms are used in different companies in different ways. That is, it is possible that in a startup, a data scientist who wants to hire a startup, they are giving him the name data scientist, but they are getting all the work done by him. This is also possible. So generally, if we observe, there can be many startups in which if there is a small team of data science,",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 611.0,
+            "end": 645.0,
+            "text": "So generally, if we observe, there can be many startups in which if there is a small team of data science, then it is possible that the data scientist has a lot of different work that he is doing himself, which may not be part of their domain. And on the other hand, in big companies, if there are a lot of people, then generally, a clear segregation is seen that which person's role is of a data engineer, then generally, a clear segregation is seen that which person's role is of a data engineer, which person's role is of a data analyst, and which person's role is of a data scientist. Now if we talk about the data science industry, then generally, all the big packages that we get to hear, that majority is given to data scientists.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 642.0,
+            "end": 678.0,
+            "text": "that majority is given to data scientists. So data scientists earn the most in data science because they have the most specialized skillset. After that, the second number is earning wise, that is, general earning wise, our data engineers come, and after that comes our data analysts. Now as a fresher, when the majority of companies hire for placement in the data science field, Now as a fresher, when the majority of companies hire for placement in the data science field, then they hire data analysts, who do not have much of a coding role in them. So if you are a student who is a fresher who is not very interested in coding, then you can target the field of data analytics. Or if you are a student who is interested in coding,",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 675.0,
+            "end": 707.0,
+            "text": "Or if you are a student who is interested in coding, but specifically not very interested in machine learning, then you can target the field of data engineering, if we want to go specifically into the domain of data science. There are many software engineers who work in software engineering first in companies, There are many software engineers who work in software engineering first in companies, and after that, they use big data and shift to the data engineering field. And if you are somebody who is very interested in machine learning algorithms, machine learning models, then you should target data science as a field. Now here is another thing that in the industry,",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 704.0,
+            "end": 735.0,
+            "text": "Now here is another thing that in the industry, if a company has a lot of complex data science work, then many times companies prefer that the data scientist they are hiring, they have at least a PhD degree. So that's why if we want to become a data scientist, So that's why if we want to become a data scientist, then either our dedication should be very high in the field, and with time we can gain a lot of experience. Or we should also think that I have to go ahead and target masters or PhDs in this field. Additionally, in the data science field, it is also possible to shift your domain.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 731.0,
+            "end": 753.0,
+            "text": "Additionally, in the data science field, it is also possible to shift your domain. It is possible that you start as a data analyst, but after that you start learning coding, you start gaining more experience, and slowly you shift to a data engineering domain. and slowly you shift to a data engineering domain. And after that, it is possible that you are doing masters, or you are taking more experience, you are taking machine learning experience, you are building projects on your side.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 751.0,
+            "end": 774.0,
+            "text": "you are building projects on your side. Now the packages in data science vary a lot. Packages also depend on how many years of experience you have, they also depend on which company you are applying to, they also depend on which country you are working in, they also depend on which country you are working in, or which state you are working in. So definitely if your years of experience increases, your skill level increases, then our package will also be increasing.",
+            "source_count": 10
+        },
+        {
+            "video_number": 2,
+            "video_title": "02 data analyst vs scientist vs engineer.mp3",
+            "source_file": "02_data_analyst_vs_scientist_vs_engineer.mp3.json",
+            "start": 772.0,
+            "end": 809.0,
+            "text": "then our package will also be increasing. But as a fresher, the positions we are getting in the starting, will be the position of the majority data analytics, in which our starting package ranges between 4-7 LPA. So I hope that if we want to make a good career in the field of data science, So I hope that if we want to make a good career in the field of data science, then this session will help you in deciding what exactly is the field that you should target, and what skillsets are there in that field that you should learn. Apart from this, if you have any doubts related to coding or programming, Apart from this, if you have any doubts related to coding or programming, you can comment below and tell me. That's all for today, see you in the next video, till then keep learning and keep exploring.",
+            "source_count": 14
+        }
+    ],
+    "full_text": " Hi everyone and welcome to PNK College. Today we will discuss in detail about the differences between data science, data analytics and data engineering. Whenever we start exploring the field of data science, we get to hear different names. But because we don't know the exact meaning of these professions or domains, we get confused. So in today's session, we will be exploring in detail what are the differences between a data scientist, a data analyst and a data engineer. We will discuss the profession that we should choose and what skills we should have before we start applying for a job. And what kind of work we should actually do in the field. Before we talk about the fields, we should know some basic terms. For example, we have heard AI, machine learning, deep learning, all these terms are related to data science or in fact, in general. So first of all, we will talk about their differences. Let's start with AI. The broadest term, the major term that we get to hear is AI. When we talk about AI, it's a very broad term. AI means when we teach our machines to think on their own and to take decisions on their own. For example, today we have seen a lot of practical implementations of AI. Like chat, GPT, mid journey and Dali. Or we have seen the recommendation engine of Netflix. That according to the movie we are watching, which movie should we watch next? Or our self-driving cars, our voice assistants like Siri, Alexa, Google. All these are real-life implementations of artificial intelligence. And artificial intelligence has another sub-domain, which we call machine learning. All machine learning, that is, all ML, is all AI. Yes, there can be some AI that is not ML based. Like our rule-based AI is not machine learning, but it is still part of AI. Now when we talk about machine learning, ML is the subset of AI in which we use data and put a lot of sophisticated algorithms on it to make productions. The maximum of all the AI we see in today's data is implemented using machine learning techniques. Now if we want to study machine learning in detail, it has three sub-types. Supervised learning, unsupervised learning and reinforcement learning. Supervised learning is the type of machine learning in which we have a lot of data, all that is labeled data. That is, we know what output should come according to which input. For example, if we are building a system for spam filtering in emails, then we already have such data in which we have a lot of emails and we also have an output that which email is spam and which is not spam. So here we will use supervised learning to find out how many percent of the email in the future is spam and how many emails are genuine. The second category is unsupervised learning in which we have output unknown. In this, we generally solve clustering or associative problems. And the third type is reinforcement learning in which we generally have some data labeled and some data unlabeled. Reinforcement learning has a very good implementation. We have recommendation systems, that is, what kind of content we should see in the future based on what we saw in the old content. Now this is machine learning. Machine learning has a subset which we call deep learning. Basically, we talk about neural networks in deep learning. Neural networks mean that we are trying to build this type of machine learning algorithms in deep learning that can mimic our human brain. Our human brain works on neural networks and when we apply layers of many networks in this way, then that network becomes very deep and from here we get the concept of deep learning. Deep learning has different categories of neural networks that we are studying. Like ANN, our artificial neural network, CNN, convolutional neural networks or RNN, recurrent neural networks. So, in a way, we can say that deep learning is all about complex neural networks. And then there is another subset of deep learning which we call generative AI or in short, GEN AI. Today we have used chat GPT, we have seen software like Dali, we have seen mid journey. All these are the parts of generative AI. We call the complex branch of deep learning as generative AI. Generative AI is the AI that can generate new content, creative content. Generative AI can generate new text, new audio, new videos, new images. And this is basically the creative part of AI. That is, this is artistic AI that will generate things that perhaps no one has ever generated before. And that is why it is very sophisticated. Now, I would like to give a small disclaimer to the beginners here that many times we get to see such tutorials on the internet that in one hour, in two hours, in two and a half hours we will master chat GPT. We will become masters of AI, so we should not get caught up in such things. Chat GPT or in fact generative AI is quite sophisticated AI. Generally, those who work on chat GPT or generative AI are very good in their field. And many of them have spent at least 10-15 years in this field. Many people even have a PhD. We cannot match that knowledge in a 2-2.5 hour tutorial. So we should have this knowledge as a beginner that using chat GPT and building chat GPT is a big difference. Now, this is all about AI machine learning, deep learning and generative AI. Now, how does data science fit in here? Data science is basically all of this and plus something extra. That is, data science is even bigger than this, if we look at it in a way. Because the data scientist inside it works on machine learning, deep learning, generative AI or any normal AI problem. That means he knows these things. Plus, what does he know? Plus, he has a good command on mathematical tools. Mathematical tools are the concepts of our deep maths. Like statistics, probability, linear algebra, calculus. He has a strong command on all of these concepts. And he has a good knowledge of different tools. So if we want to go into the field of data science, then in that case, our machine learning should be strong. Along with that, our maths concepts should also be strong because that is what the field demands. So now that we have an idea of basic terms, let's know the difference between data science, data engineer and data analytics. Generally, our entire pipeline is that we bring raw data from somewhere. We convert it into good data. Then we did some analysis on it. After that, we built a machine learning model on it. And then we got some good results from there, which we applied to our business. If we divide this entire process into four steps, then the first step will be the one in which we collect the data and store it. So this work is generally done by our data engineers. Data engineers have a major responsibility to build a good, stable, scalable infrastructure. Because of which, data analytics or data scientists should be able to get it easily available. And it may sound easy to hear that collect and store data, but it is actually a very complex thing to do. So these data engineers are software engineers. That is, they have a good programming language like Java or C++. It has a strong base, plus they also know how to work on big data. So to become a data engineer, we should have all these skillsets. After that comes our second and third step. One more thing, these steps can overlap many times. That is, it is possible that one company has only this much work as a data engineer. Plus, it can be done in any other company. The data engineer does the first step and also does some parts in the second step. So we come to the second step, which is data cleaning and transformation. So our second step is to clean this data and then analyze it, label it. The second and third step is generally the work of data analysts. They look at the data and get some useful insights from it. And then how can those insights, that is, the useful information be used to grow a business? They are working on that thing. So to become a data analyst, we should have the experience of visualization tools. Like Tableau or Power BI. Along with that, we should have good communication skills in our field. Because we have taken out insights from the data many times. They must be presenting to other people and explaining them. And along with that, if you have basic math or basic programming language like Python, if you have knowledge, then that is considered a big plus. Now this role is generally put in the category of non-technical. Because in many companies, data analysts are not coding. Whereas some companies are such that data analysts are coding a little bit. But generally, there is not much coding in this role. So to become a data analyst, we should have all these skillsets. And finally, the fourth step is to do prediction modeling on data. That is, if we have good data, good clean data, labeled data, then what will we do on that? We will build machine learning models on that. We will apply machine learning algorithms. By using that data, we will be building good models that can be used in the company in the future. So all this work in which machine learning algorithms are being applied, this work is done by a data scientist. Apart from this, there are some additional things like AB testing. So the testing of this type is also done by our data scientists. So let's summarize once. Generally, this role is of our data engineers. This role is of our data analysts. And this role is of our data scientists. Now I will give you one more disclaimer here. These terms are used in different companies in different ways. That is, it is possible that in a startup, a data scientist who wants to hire a startup, they are giving him the name data scientist, but they are getting all the work done by him. This is also possible. So generally, if we observe, there can be many startups in which if there is a small team of data science, then it is possible that the data scientist has a lot of different work that he is doing himself, which may not be part of their domain. And on the other hand, in big companies, if there are a lot of people, then generally, a clear segregation is seen that which person's role is of a data engineer, which person's role is of a data analyst, and which person's role is of a data scientist. Now if we talk about the data science industry, then generally, all the big packages that we get to hear, that majority is given to data scientists. So data scientists earn the most in data science because they have the most specialized skillset. After that, the second number is earning wise, that is, general earning wise, our data engineers come, and after that comes our data analysts. Now as a fresher, when the majority of companies hire for placement in the data science field, then they hire data analysts, who do not have much of a coding role in them. So if you are a student who is a fresher who is not very interested in coding, then you can target the field of data analytics. Or if you are a student who is interested in coding, but specifically not very interested in machine learning, then you can target the field of data engineering, if we want to go specifically into the domain of data science. There are many software engineers who work in software engineering first in companies, and after that, they use big data and shift to the data engineering field. And if you are somebody who is very interested in machine learning algorithms, machine learning models, then you should target data science as a field. Now here is another thing that in the industry, if a company has a lot of complex data science work, then many times companies prefer that the data scientist they are hiring, they have at least a PhD degree. So that's why if we want to become a data scientist, then either our dedication should be very high in the field, and with time we can gain a lot of experience. Or we should also think that I have to go ahead and target masters or PhDs in this field. Additionally, in the data science field, it is also possible to shift your domain. It is possible that you start as a data analyst, but after that you start learning coding, you start gaining more experience, and slowly you shift to a data engineering domain. And after that, it is possible that you are doing masters, or you are taking more experience, you are taking machine learning experience, you are building projects on your side. Now the packages in data science vary a lot. Packages also depend on how many years of experience you have, they also depend on which company you are applying to, they also depend on which country you are working in, or which state you are working in. So definitely if your years of experience increases, your skill level increases, then our package will also be increasing. But as a fresher, the positions we are getting in the starting, will be the position of the majority data analytics, in which our starting package ranges between 4-7 LPA. So I hope that if we want to make a good career in the field of data science, then this session will help you in deciding what exactly is the field that you should target, and what skillsets are there in that field that you should learn. Apart from this, if you have any doubts related to coding or programming, you can comment below and tell me. That's all for today, see you in the next video, till then keep learning and keep exploring."
+}

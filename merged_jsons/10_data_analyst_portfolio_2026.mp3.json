@@ -1,0 +1,207 @@
+{
+    "video_number": 10,
+    "video_title": "10 data analyst portfolio 2026.mp3",
+    "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+    "total_chunks": 22,
+    "chunks": [
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 0.0,
+            "end": 34.0,
+            "text": "Many people think that they will get calls from skills or projects. There are so many people in the market who are preparing to become data analysts. But only a few of them are shortlisted. Their portfolio is good, everyone is learning skills. But to stand out, you have to make such projects, such portfolios, But to stand out, you have to make such projects, such portfolios, so that you get calls and you can be shortlisted soon. So today's video is going to be a complete guide for only data analytics portfolio that you need that will actually get you noticed, get you interview calls and help you get hired faster. So in this video we are going to cover all these things.",
+            "source_count": 10
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 32.0,
+            "end": 72.0,
+            "text": "So in this video we are going to cover all these things. First, most portfolios fail to get you shortlisted even if you have the right skill. Second, how to choose the right project that will actually impress the recruiters. Third, how to make a portfolio website from GitHub to a professional website without coding, without any design skill. Lastly, I will tell you about one thing that if you add to your portfolio, Lastly, I will tell you about one thing that if you add to your portfolio, your portfolio is different from the percentage of the candidates and you can stand out. First, let's talk about why most portfolios fail to get you shortlisted. Now where do people's mistakes come that they use generic data sets. Genetic data like Titanic data, COVID, World Happiness data, Netflix, Blink It,",
+            "source_count": 10
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 66.0,
+            "end": 101.0,
+            "text": "Genetic data like Titanic data, COVID, World Happiness data, Netflix, Blink It, all these are very common data sets. And if you make a project on it, then almost every other candidate makes a project on it. So if you put this in the resume, then if the recruiter has 50 resumes, then from that at least 40 resumes will get this type of project. then from that at least 40 resumes will get this type of project. So there is no difference, your work is not seen, your skills are not seen, and you remain a part of the crowd. Let's talk about the second mistake, which is very common. They show code, not impact. Recruiter wants to hire a data analyst who can solve business problems,",
+            "source_count": 10
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 97.0,
+            "end": 134.0,
+            "text": "Recruiter wants to hire a data analyst who can solve business problems, not that he just doesn't know how to write code. Now look at these two examples. One says, I built a sales dashboard using Python and Power BI. The other says, I built a sales dashboard that identified 23% revenue drop in quarter 3. The other says, I built a sales dashboard that identified 23% revenue drop in quarter 3. From this example, we can see the impact, what analysis you did, what insight you got, what impact you got from it. But here, you are simply telling what exactly you did. So you saw the difference, it's the same work, same code, but the way to present it is very different. Now the third mistake, the portfolio remains only as code dump.",
+            "source_count": 10
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 130.0,
+            "end": 162.0,
+            "text": "Now the third mistake, the portfolio remains only as code dump. There you have just dumped your code, resource, data or notebook file. You didn't write anything about it, what problem you solved, no context, no problem statement, no conclusion. Recruiter has to find out what you have solved, so he will leave you and go to the next candidate who will have mentioned all these things. If you are a fresher or switching careers, then your portfolio is something on the basis of which you get a call.",
+            "source_count": 5
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 155.0,
+            "end": 183.0,
+            "text": "If you are a fresher or switching careers, then your portfolio is something on the basis of which you get a call. So it has to be designed in such a way that you are presenting a business case study, not a homework assignment. So next thing, how to choose the right project. Now rule no. 1 comes that you have to start from real world problem, not from data set. Most of the people go to Kaggle, search for a good data set and then they think what problem can we solve from this data.",
+            "source_count": 5
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 175.0,
+            "end": 197.0,
+            "text": "Most of the people go to Kaggle, search for a good data set and then they think what problem can we solve from this data. This is a backward approach. The right approach is that first you have to think about a real world problem, that according to it, you have to find relevant data. And then you have to do analysis, then you have to get business insight and then your reporting comes at the end. This is the correct approach to solve any project.",
+            "source_count": 5
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 194.0,
+            "end": 221.0,
+            "text": "This is the correct approach to solve any project. Next you have to make an industry specific project. There are many people whose resume I have reviewed and saw such projects which were out of the box. Like COVID analysis, now what interest will any company have in COVID analysis or what insight will they get from the world happiness report you have made. You may have shown that you know how to use all the skills, but you have not solved such a problem which is industry specific.",
+            "source_count": 5
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 215.0,
+            "end": 240.0,
+            "text": "You may have shown that you know how to use all the skills, but you have not solved such a problem which is industry specific. So if you are targeting any domain specifically, like e-commerce, healthcare, fintech, then you have to solve problem statement related to its domain. And then you have to find data according to it. Last one is for career switchers. If you are a career switcher, then it is possible that you are working in some other domain and now you want to be a data analyst.",
+            "source_count": 5
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 235.0,
+            "end": 261.0,
+            "text": "If you are a career switcher, then it is possible that you are working in some other domain and now you want to be a data analyst. So whichever domain you are working in, you have to use your past domain because you already have a lot of knowledge. So using that knowledge, every domain has its own analysis. So if you use that past domain to make a project, then it is more impactful and also shows your relevant experience. Now let's come to the portfolio website which is very important.",
+            "source_count": 5
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 258.0,
+            "end": 291.0,
+            "text": "Now let's come to the portfolio website which is very important. If you have made a project, it is in your system, in the resume you have only mentioned the point, then how will the recruiter know what you have done in that project. For this, there is a portfolio website where you show your project. First is GitHub. You can create your portfolio on GitHub. You can create your portfolio on GitHub. This is a standard portfolio of every technical person who wants to work in the IT industry. It is mandatory to create. You can post your projects in different repositories. And how we add them in GitHub repository, I have already made a video on it.",
+            "source_count": 10
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 287.0,
+            "end": 313.0,
+            "text": "And how we add them in GitHub repository, I have already made a video on it. I will give you the link in the description box. Second is a personal portfolio website that is needed for personal branding. But people think that to make a professional website, they have to learn coding and design skills. The best solution for this is Hostinger. The best solution for this is Hostinger. In Hostinger, you get an AI website builder. In which you just have to give a prompt, tell about yourself. And AI will prepare your professional website and give it to you. That too within minutes.",
+            "source_count": 10
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 312.0,
+            "end": 342.0,
+            "text": "That too within minutes. There is no coding, there is no requirement for design skills. So as soon as you open the Hostinger platform, you get some options like this. Create a website. We have to use the Horizons. We have to use the Horizons. Wipe coding. Here we are going to create a portfolio using AI. So I have selected Horizons here. You get some kind of dashboard. You get some kind of dashboard. I have already written a simple prompt. I have not written much about myself in this. To make a personalized website, you have to write about your project, experience, skills, everything in your prompt. Only then you will get a customized portfolio website.",
+            "source_count": 15
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 339.0,
+            "end": 366.0,
+            "text": "Only then you will get a customized portfolio website. So I have pasted this prompt here. And let's see the power of AI. Our portfolio website is ready. 5 years of experience. 5 years of experience. This is something that he has written about me. And let's... Here the name will come. We can change it too. We can change it too. So view my work. Here you can see the feature projects. Sales dashboard, time series forecasting, impact, approach, tools used, problem statement. He has mentioned all these things.",
+            "source_count": 15
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 364.0,
+            "end": 393.0,
+            "text": "He has mentioned all these things. I had not told about my project yet. That's why he added it himself. To make you customized, you have to tell about your projects too. Here you get skills. Here you get skills. What technical skills I have. Then about section. About me has come here. Download resume. Download resume. There is an option. Get in touch. Then experience section. Senior data analyst. Senior data analyst. Data analyst. Now you can see without writing a single line of code. With the help of AI, I have built a complete professional portfolio website. Which I can host too.",
+            "source_count": 20
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 391.0,
+            "end": 412.0,
+            "text": "Which I can host too. This hostinger provides you with a custom domain. On which you can host your portfolio website. And share it with recruiters. Apart from this, hostinger provides you with ready to use professional templates. Apart from this, hostinger provides you with ready to use professional templates. Which you can use and easily drag and drop and edit. And you can create your portfolio. I have given the skill link in the description box. From there you can check about its other features.",
+            "source_count": 10
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 410.0,
+            "end": 431.0,
+            "text": "From there you can check about its other features. Now let's talk about how to use skills in your projects. First of all, let's talk about SQL. Which is a very important skill for a data analyst. SQL is used for database handling. SQL is used for database handling. With the help of SQL, you can do EDA. You can also do data cleaning. The actual data on which you have to do analysis. By adding joints, aggregations and conditions.",
+            "source_count": 10
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 429.0,
+            "end": 455.0,
+            "text": "By adding joints, aggregations and conditions. You can fetch it. And lastly you can create an ETAL pipeline. So all these things if you want to do in your project. Then use SQL for it. Then use SQL for it. Next if I talk about Python. If you want to solve different research questions. Like you can solve research questions in SQL. But you will get only one table. But you will get only one table. If you want to create visualization on that table. Then you can use Python for it. You have to do advanced analysis. You have to do hypothesis testing.",
+            "source_count": 15
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 453.0,
+            "end": 477.0,
+            "text": "You have to do hypothesis testing. You have to do predictive analytics. Or you have to do regression analysis. Time series analysis. You can do all these things in Python. You can do all these things in Python. Lastly you have BI2. In which you have tabbed on Power BI. Now you can make a dashboard on it. In which if you are making in Power BI. In which if you are making in Power BI. Then show DAX operation. Create some new measures. Create new tables. Show data modelling.",
+            "source_count": 15
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 476.0,
+            "end": 511.0,
+            "text": "Show data modelling. Show reporting. Do the same in Tableau. Dashboard should be good. Professional looking dashboard should be there. Professional looking dashboard should be there. Don't make a dashboard like kids. Don't follow any color or theme. Don't follow any problem statement. Just make random charts. Just make random charts. You have to use tools and skills professionally. Like a data analyst uses in actual project. In actual company. And no project should be single skill project. And no project should be single skill project. In every project you should have more than 2 skills. Now a common question that everyone asks. How many projects should be there in portfolio? Simple answer is quality over quantity.",
+            "source_count": 20
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 509.0,
+            "end": 535.0,
+            "text": "Simple answer is quality over quantity. Randomly if you have made 10 projects. Out of which 3 you have put in your resume. Then you won't get shortlisted. But if you make 5 projects. But if you make 5 projects. Out of which you put top 3 in your resume. Then your chances of shortlisting increases. Because all your projects are very addressable. All your projects are very advanced level projects. All your projects are very advanced level projects. In which you have used multiple skills. And industry specific. And solving a particular real world problem. You have to make this type of project.",
+            "source_count": 15
+        },
+        {
+            "video_number": 10,
+            "video_title": "10 data analyst portfolio 2026.mp3",
+            "source_file": "10_data_analyst_portfolio_2026.mp3.json",
+            "start": 533.0,
+            "end": 569.0,
+            "text": "You have to make this type of project. You can make 4-5 major projects. Out of which you will add 3 in your resume. If you are not getting a call for job. And you are not able to shortlist. And you are not able to shortlist. Then you don't have problem of skills. You have problem of portfolio. So fix your portfolio. If you have followed all these things. If you have followed all these things. Then I can definitely say that. It will be difficult for any recruiter to ignore your portfolio. That's it for this video. I hope you got an idea. I hope you got an idea. How to structure your portfolio. And what all things to mention. If you liked the video then like it. And subscribe to my channel to watch more such videos. And subscribe to my channel to watch more such videos. So see you in next video. Thank you.",
+            "source_count": 22
+        }
+    ],
+    "full_text": " Many people think that they will get calls from skills or projects. There are so many people in the market who are preparing to become data analysts. But only a few of them are shortlisted. Their portfolio is good, everyone is learning skills. But to stand out, you have to make such projects, such portfolios, so that you get calls and you can be shortlisted soon. So today's video is going to be a complete guide for only data analytics portfolio that you need that will actually get you noticed, get you interview calls and help you get hired faster. So in this video we are going to cover all these things. First, most portfolios fail to get you shortlisted even if you have the right skill. Second, how to choose the right project that will actually impress the recruiters. Third, how to make a portfolio website from GitHub to a professional website without coding, without any design skill. Lastly, I will tell you about one thing that if you add to your portfolio, your portfolio is different from the percentage of the candidates and you can stand out. First, let's talk about why most portfolios fail to get you shortlisted. Now where do people's mistakes come that they use generic data sets. Genetic data like Titanic data, COVID, World Happiness data, Netflix, Blink It, all these are very common data sets. And if you make a project on it, then almost every other candidate makes a project on it. So if you put this in the resume, then if the recruiter has 50 resumes, then from that at least 40 resumes will get this type of project. So there is no difference, your work is not seen, your skills are not seen, and you remain a part of the crowd. Let's talk about the second mistake, which is very common. They show code, not impact. Recruiter wants to hire a data analyst who can solve business problems, not that he just doesn't know how to write code. Now look at these two examples. One says, I built a sales dashboard using Python and Power BI. The other says, I built a sales dashboard that identified 23% revenue drop in quarter 3. From this example, we can see the impact, what analysis you did, what insight you got, what impact you got from it. But here, you are simply telling what exactly you did. So you saw the difference, it's the same work, same code, but the way to present it is very different. Now the third mistake, the portfolio remains only as code dump. There you have just dumped your code, resource, data or notebook file. You didn't write anything about it, what problem you solved, no context, no problem statement, no conclusion. Recruiter has to find out what you have solved, so he will leave you and go to the next candidate who will have mentioned all these things. If you are a fresher or switching careers, then your portfolio is something on the basis of which you get a call. So it has to be designed in such a way that you are presenting a business case study, not a homework assignment. So next thing, how to choose the right project. Now rule no. 1 comes that you have to start from real world problem, not from data set. Most of the people go to Kaggle, search for a good data set and then they think what problem can we solve from this data. This is a backward approach. The right approach is that first you have to think about a real world problem, that according to it, you have to find relevant data. And then you have to do analysis, then you have to get business insight and then your reporting comes at the end. This is the correct approach to solve any project. Next you have to make an industry specific project. There are many people whose resume I have reviewed and saw such projects which were out of the box. Like COVID analysis, now what interest will any company have in COVID analysis or what insight will they get from the world happiness report you have made. You may have shown that you know how to use all the skills, but you have not solved such a problem which is industry specific. So if you are targeting any domain specifically, like e-commerce, healthcare, fintech, then you have to solve problem statement related to its domain. And then you have to find data according to it. Last one is for career switchers. If you are a career switcher, then it is possible that you are working in some other domain and now you want to be a data analyst. So whichever domain you are working in, you have to use your past domain because you already have a lot of knowledge. So using that knowledge, every domain has its own analysis. So if you use that past domain to make a project, then it is more impactful and also shows your relevant experience. Now let's come to the portfolio website which is very important. If you have made a project, it is in your system, in the resume you have only mentioned the point, then how will the recruiter know what you have done in that project. For this, there is a portfolio website where you show your project. First is GitHub. You can create your portfolio on GitHub. This is a standard portfolio of every technical person who wants to work in the IT industry. It is mandatory to create. You can post your projects in different repositories. And how we add them in GitHub repository, I have already made a video on it. I will give you the link in the description box. Second is a personal portfolio website that is needed for personal branding. But people think that to make a professional website, they have to learn coding and design skills. The best solution for this is Hostinger. In Hostinger, you get an AI website builder. In which you just have to give a prompt, tell about yourself. And AI will prepare your professional website and give it to you. That too within minutes. There is no coding, there is no requirement for design skills. So as soon as you open the Hostinger platform, you get some options like this. Create a website. We have to use the Horizons. Wipe coding. Here we are going to create a portfolio using AI. So I have selected Horizons here. You get some kind of dashboard. I have already written a simple prompt. I have not written much about myself in this. To make a personalized website, you have to write about your project, experience, skills, everything in your prompt. Only then you will get a customized portfolio website. So I have pasted this prompt here. And let's see the power of AI. Our portfolio website is ready. 5 years of experience. This is something that he has written about me. And let's... Here the name will come. We can change it too. So view my work. Here you can see the feature projects. Sales dashboard, time series forecasting, impact, approach, tools used, problem statement. He has mentioned all these things. I had not told about my project yet. That's why he added it himself. To make you customized, you have to tell about your projects too. Here you get skills. What technical skills I have. Then about section. About me has come here. Download resume. There is an option. Get in touch. Then experience section. Senior data analyst. Data analyst. Now you can see without writing a single line of code. With the help of AI, I have built a complete professional portfolio website. Which I can host too. This hostinger provides you with a custom domain. On which you can host your portfolio website. And share it with recruiters. Apart from this, hostinger provides you with ready to use professional templates. Which you can use and easily drag and drop and edit. And you can create your portfolio. I have given the skill link in the description box. From there you can check about its other features. Now let's talk about how to use skills in your projects. First of all, let's talk about SQL. Which is a very important skill for a data analyst. SQL is used for database handling. With the help of SQL, you can do EDA. You can also do data cleaning. The actual data on which you have to do analysis. By adding joints, aggregations and conditions. You can fetch it. And lastly you can create an ETAL pipeline. So all these things if you want to do in your project. Then use SQL for it. Next if I talk about Python. If you want to solve different research questions. Like you can solve research questions in SQL. But you will get only one table. If you want to create visualization on that table. Then you can use Python for it. You have to do advanced analysis. You have to do hypothesis testing. You have to do predictive analytics. Or you have to do regression analysis. Time series analysis. You can do all these things in Python. Lastly you have BI2. In which you have tabbed on Power BI. Now you can make a dashboard on it. In which if you are making in Power BI. Then show DAX operation. Create some new measures. Create new tables. Show data modelling. Show reporting. Do the same in Tableau. Dashboard should be good. Professional looking dashboard should be there. Don't make a dashboard like kids. Don't follow any color or theme. Don't follow any problem statement. Just make random charts. You have to use tools and skills professionally. Like a data analyst uses in actual project. In actual company. And no project should be single skill project. In every project you should have more than 2 skills. Now a common question that everyone asks. How many projects should be there in portfolio? Simple answer is quality over quantity. Randomly if you have made 10 projects. Out of which 3 you have put in your resume. Then you won't get shortlisted. But if you make 5 projects. Out of which you put top 3 in your resume. Then your chances of shortlisting increases. Because all your projects are very addressable. All your projects are very advanced level projects. In which you have used multiple skills. And industry specific. And solving a particular real world problem. You have to make this type of project. You can make 4-5 major projects. Out of which you will add 3 in your resume. If you are not getting a call for job. And you are not able to shortlist. Then you don't have problem of skills. You have problem of portfolio. So fix your portfolio. If you have followed all these things. Then I can definitely say that. It will be difficult for any recruiter to ignore your portfolio. That's it for this video. I hope you got an idea. How to structure your portfolio. And what all things to mention. If you liked the video then like it. And subscribe to my channel to watch more such videos. So see you in next video. Thank you."
+}

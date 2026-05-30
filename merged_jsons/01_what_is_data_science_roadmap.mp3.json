@@ -1,0 +1,252 @@
+{
+    "video_number": 1,
+    "video_title": "01 what is data science roadmap.mp3",
+    "source_file": "01_what_is_data_science_roadmap.mp3.json",
+    "total_chunks": 27,
+    "chunks": [
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 0.0,
+            "end": 37.0,
+            "text": "Hi everyone, welcome to Apto College. Today we will talk about what is data science exactly and if we want to make a career in the field of data science, then what can be its step by step path. First of all, let's talk about data science. Now we have heard things like machine learning, artificial intelligence in recent years. And in fact, we have recently seen chat GPT. And in fact, we have recently seen chat GPT. All these things are possible because of data science. Now to understand data science, we take the example of Netflix. If we use a service like Netflix or Prime Video and we watch a lot of horror movies on it, then what will Netflix do if a new horror movie comes, then it will suggest it to us.",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 32.72,
+            "end": 63.96,
+            "text": "then what will Netflix do if a new horror movie comes, then it will suggest it to us. So what did they actually do? What kind of content do we watch, what kind of TV shows do we watch, on the basis of that, they suggested us more such content so that we sit on Netflix or Prime Video for a long time and watch movies. Similarly, if we take the example of Instagram, then if we are very fond of anime, then we keep watching anime content on Instagram, then Instagram will show us more such content so that we use Instagram's platform more.",
+            "source_count": 5
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 55.0,
+            "end": 87.08,
+            "text": "then we keep watching anime content on Instagram, then Instagram will show us more such content so that we use Instagram's platform more. Basically, all the platforms, whether they are social media, whether they are other platforms, whether they are shopping platforms like Amazon, all these platforms want the user to stay on them for a long time and use them as much as possible. That is why they want some common patterns to be taken out on the basis of the user's activity. On the basis of which we can keep the users hooked on our platforms.",
+            "source_count": 5
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 83.44,
+            "end": 117.72,
+            "text": "On the basis of which we can keep the users hooked on our platforms. This is an example of a lot of business problems that solutions are taken out using data science. So if you want to understand data science, then it is a mix of math, statistics, programming, data and machine learning. So there are many different things that if you take out a mixture, then it becomes data science. Our machine learning jobs come under data science, our data analyst jobs come under it, our jobs based on big data come under it.",
+            "source_count": 5
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 108.32,
+            "end": 149.20000000000002,
+            "text": "Our machine learning jobs come under data science, our data analyst jobs come under it, our jobs based on big data come under it. Now we know that there are a lot of big companies and they have a lot of data. So when there is a big company, we don't just call its data, we call it big data because companies have so much data today. Now the job of a data scientist is to collect the data, analyze it, process it and finally get some useful insights from it. Useful insights means to get useful information, information that can be useful to their company,",
+            "source_count": 5
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 143.68,
+            "end": 176.52,
+            "text": "Useful insights means to get useful information, information that can be useful to their company, so that they can help their users better or grow their platform more. So when we mix business skills with algorithms, data skills and math, we get a field of data science. Now to become a data scientist, we have many steps that we have to perform to actually learn the skills. Now all the topics related to data science, all the information that we are sharing today, you will get all of it in notes format.",
+            "source_count": 5
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 169.72,
+            "end": 199.83999999999997,
+            "text": "Now all the topics related to data science, all the information that we are sharing today, you will get all of it in notes format. So you will get a link in the description box below, you can download it from there. Now the field of data science is not necessary that we are studying math or we are coming from the computer science branch. Any person can come and if they invest a lot of time in data science, they can actually learn these skills and make a good career. Now the first step that comes in this journey is to learn a programming language.",
+            "source_count": 5
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 195.23999999999998,
+            "end": 235.28,
+            "text": "Now the first step that comes in this journey is to learn a programming language. Generally, there are two major programming languages in data science, one is Python and the other is R. Now Python is the most popular of all because it has very good libraries available. Resources are very good available in it. So first of all, we have to learn the basics of Python. So first of all, we have to learn the basics of Python. In the basics of Python, our variables come, our FLS come, our loops come. So we have to learn these basic things in Python first and then we have to learn two libraries in Python. One is our NumPy and one is our Pandas. These libraries help us in dealing with data, how we can interact with data in Python.",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 230.28,
+            "end": 270.36,
+            "text": "These libraries help us in dealing with data, how we can interact with data in Python. Now if we want to learn basic Python, then we have already made a one-shot for it. You can go and explore that. In that one shot, the basics of Python cover and after that we will have to learn NumPy and Pandas separately. Now the Python we are learning here will not be complete. Now the Python we are learning here will not be complete. In this, we will only cover the basics and some basic libraries. After that, the second step comes to learn some statistics. Now it is possible that we have only studied math till 10, then there are a couple of extra topics in math that we have to study to become a good data scientist. And if we consider that we have studied math in 11th and 12th, then it is even better because generally our math syllabus in India has these topics covered.",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 263.36,
+            "end": 286.36,
+            "text": "And if we consider that we have studied math in 11th and 12th, then it is even better because generally our math syllabus in India has these topics covered. And if they are not covered or covered, then we have to go and revise them once. So in the field of data science, math plays an important and crucial role. But we do not have to do that in this that we have to learn the formula of math. The actual understanding of all those things that come under data science is important.",
+            "source_count": 5
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 281.36,
+            "end": 315.40000000000003,
+            "text": "The actual understanding of all those things that come under data science is important. Because if we look at this chart, then in recent years, according to professionals, the maximum jobs that are in the data science field are in data analytics. And in data analytics, we generally deal more with the business side or the analytics side. In which the concepts of our statistics should be strong, but if we have not studied too much math or we have not gone too deep, then our work can still work. Now there are four major topics in math that we cover, among which the first is statistics, the second is linear algebra, the third is the data science field.",
+            "source_count": 5
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 307.40000000000003,
+            "end": 335.44,
+            "text": "Now there are four major topics in math that we cover, among which the first is statistics, the second is linear algebra, the third is the data science field. The fourth is calculus, and the fourth is probability. Now the sub topics in these can be a little heavy to listen to if we have not studied math or focused too much in 11-12. But if we understand the core concepts of these, then it will be enough for us. In statistics, we have to read things like mean, median, mode, variance, standard, deviation.",
+            "source_count": 5
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 330.44,
+            "end": 366.48,
+            "text": "In statistics, we have to read things like mean, median, mode, variance, standard, deviation. They have to understand well. Not only keep things, but actually understand how all these things relate to data. And if we calculate the mean in the data, then what does the actual meaning of the mean mean? In linear algebra, we will read topics like vectors, matrices, eigenvalues. In linear algebra, we will read topics like vectors, matrices, eigenvalues. Now the list of all these topics that we have to read will be given to you in the description box below. We can download this extensive list and then go and read each topic. The third thing we had to read was calculus. Now what are the derivatives in calculus?",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 364.48,
+            "end": 398.52000000000004,
+            "text": "Now what are the derivatives in calculus? The term dy by dx, what does it actually mean in math? We have to learn all these things. The fourth thing we had to read was probability. What are the odds in probability? What are the odds in probability? What are the conditional probabilities? What is the base theorem, which is very important? How do we practically use all these things? We have to learn this thing. We have to learn this thing. So from here, our basics of math, i.e. our statistics, probability, calculus, linear algebra, will be covered, which we have to read well. After reading these, we come to the third step, which is data visualization. That is, we have collected the data, now how do we visualize it?",
+            "source_count": 15
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 395.52000000000004,
+            "end": 423.56,
+            "text": "That is, we have collected the data, now how do we visualize it? Visualizing is important because when we work with businesses, when we work in companies, we will become data scientists, but other people have taken out the insights in our data, the pattern we have found and taken out, how will they understand it? the pattern we have found and taken out, how will they understand it? They will understand it using graphs, charts. So to make things like this, we will have to learn data visualization. To learn this, we will cover two very famous libraries in Python. One is our matplotlib and the other is our seaborn.",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 420.56,
+            "end": 451.6,
+            "text": "One is our matplotlib and the other is our seaborn. We should know how to use them well. And along with that, if we have basic Excel knowledge, then that will also be good, because if there is a small scale data, then to present it a little, we use our Excel sheets. then to present it a little, we use our Excel sheets. Now there is no need to take any course of Excel at a very extreme level. We can learn a very basic level of Excel, which we can learn by using it ourselves. Now let's assume that we have to learn things at an advanced level in data visualization, so we can learn more good tools in it, like Power BI, like Tabla.",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 447.6,
+            "end": 482.68,
+            "text": "so we can learn more good tools in it, like Power BI, like Tabla. But if we are a fresher, then we can ignore both the tools in college. Anyway, if we go to the data analyst job, then we will be learning in the job. And then the fourth step comes of machine learning, i.e. applying machine learning algorithms on data. i.e. applying machine learning algorithms on data. In ML algorithms, we have four major types of algorithms, one of which is supervised, second, third, and fourth is reinforcement learning. Now we can learn different types of algorithms in them and then we can apply those algorithms on data.",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 478.68,
+            "end": 509.72,
+            "text": "and then we can apply those algorithms on data. Now how to learn machine learning, where to start, what kind of process will be there, what resources will be there, we have already made dedicated videos on that, now we can go and explore them. Now whenever we apply ML algorithms on data, Now whenever we apply ML algorithms on data, then it is very important that we apply those machine learning algorithms on good data. In this way, we should first deal with data, where is the data stored, how to handle it. So here, just having ML knowledge is not enough,",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 506.72,
+            "end": 535.72,
+            "text": "So here, just having ML knowledge is not enough, we also have enough data bases knowledge, so if we take knowledge of SQL with data bases, then it becomes a plus point for us. So you can also ask questions of SQL in the interviews of data scientists. So you can also ask questions of SQL in the interviews of data scientists. Now we have already made a dedicated complete course of SQL on YouTube, you can also go and explore it, otherwise you can go to any resource and read the basic concepts of SQL. Now once we have collected all this knowledge,",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 532.72,
+            "end": 559.76,
+            "text": "Now once we have collected all this knowledge, then we should practice all the knowledge in the form of projects. Now to do projects, we have a very famous website in data science, which is called Kaggle. On Kaggle, you will get many different project ideas, On Kaggle, you will get many different project ideas, you will get many data sets, on which you can apply your own knowledge and learn. Now whenever we make projects, there are two major benefits, first of all, we practice things.",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 556.76,
+            "end": 583.8,
+            "text": "first of all, we practice things. And practical practice is very important in the field of data science, because it is not a theoretical field, the more you learn to practically implement things, the better it will be for us. And the second major benefit is that we have projects And the second major benefit is that we have projects to write in our resume, to put in our portfolio, which show our experience. If we are applying for freshers, for internship or placement, and we do not have any experience of internship placement,",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 580.8,
+            "end": 607.8399999999999,
+            "text": "and we do not have any experience of internship placement, then the best way is to show our experience to the companies that we have projects in our resume. So projects will help us in that journey. And along with projects, it would be good for us to take knowledge of Git, And along with projects, it would be good for us to take knowledge of Git, because once we have made projects, then to showcase projects or to see other people's projects, we have a website called GitHub, which has a tool called Git, its concepts are used.",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 604.8399999999999,
+            "end": 631.88,
+            "text": "which has a tool called Git, its concepts are used. Now it may seem like a little strange terms in the beginning, but there is no need to be afraid of them, there are many basic things. So we have made a tutorial covering Git, So we have made a tutorial covering Git, you can also learn from it, or you can make your own account on GitHub and you can host any projects you make there. So this was our basic 5-step roadmap to go in the field of data science.",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 628.88,
+            "end": 655.92,
+            "text": "So this was our basic 5-step roadmap to go in the field of data science. Now let's say we have learned all these things, then we have a choice that we can specialize in any of them. Let's say there are many different parts in the field of data science. One is the part of algorithms, One is the part of algorithms, and the other is data itself, we have big data, so we have data lakes, data warehouses to store such big data. One part of this is our business side,",
+            "source_count": 10
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 652.92,
+            "end": 691.9599999999999,
+            "text": "One part of this is our business side, that is, if we have taken insights from data, then how well can we apply it to the growth of the company. So in whichever part we are most interested in, we can specialize in it. we can specialize in it. If we are more interested in data, if we are interested in algorithms, then after machine learning, we can learn deep learning algorithms, we can explore neural networks, we can explore neural networks, artificial neural networks, CNN networks. If we are most interested in business side, then we can look at more advanced visualization tools. So data science is a field in which not only basics,",
+            "source_count": 15
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 688.9599999999999,
+            "end": 728.04,
+            "text": "So data science is a field in which not only basics, but also we are most interested in any domain, we can gain specialization over the years. Generally, our core algorithm-based roles, which include machine learning and deep learning, which include machine learning and deep learning, many companies like Google and Microsoft require that you already have a master's or PhD. So if we want to go into the data science field especially in algorithms or big data side, especially in algorithms or big data side, then if we are actually interested in it, then we can consider that over the years we will be taking a master's degree. There are many other things available",
+            "source_count": 15
+        },
+        {
+            "video_number": 1,
+            "video_title": "01 what is data science roadmap.mp3",
+            "source_file": "01_what_is_data_science_roadmap.mp3.json",
+            "start": 725.04,
+            "end": 755.0799999999999,
+            "text": "There are many other things available in which we can apply and establish a good career. So I hope that we have got some clarity today that if we want to make a career in the field of data science, then what steps will we have to take, then what steps will we have to take, what resources we have to follow, and what are the things that we can take care of over the years if we are going into this field. Apart from this, if you have any doubts about technology Apart from this, if you have any doubts about technology then please comment below.",
+            "source_count": 12
+        }
+    ],
+    "full_text": " Hi everyone, welcome to Apto College. Today we will talk about what is data science exactly and if we want to make a career in the field of data science, then what can be its step by step path. First of all, let's talk about data science. Now we have heard things like machine learning, artificial intelligence in recent years. And in fact, we have recently seen chat GPT. All these things are possible because of data science. Now to understand data science, we take the example of Netflix. If we use a service like Netflix or Prime Video and we watch a lot of horror movies on it, then what will Netflix do if a new horror movie comes, then it will suggest it to us. So what did they actually do? What kind of content do we watch, what kind of TV shows do we watch, on the basis of that, they suggested us more such content so that we sit on Netflix or Prime Video for a long time and watch movies. Similarly, if we take the example of Instagram, then if we are very fond of anime, then we keep watching anime content on Instagram, then Instagram will show us more such content so that we use Instagram's platform more. Basically, all the platforms, whether they are social media, whether they are other platforms, whether they are shopping platforms like Amazon, all these platforms want the user to stay on them for a long time and use them as much as possible. That is why they want some common patterns to be taken out on the basis of the user's activity. On the basis of which we can keep the users hooked on our platforms. This is an example of a lot of business problems that solutions are taken out using data science. So if you want to understand data science, then it is a mix of math, statistics, programming, data and machine learning. So there are many different things that if you take out a mixture, then it becomes data science. Our machine learning jobs come under data science, our data analyst jobs come under it, our jobs based on big data come under it. Now we know that there are a lot of big companies and they have a lot of data. So when there is a big company, we don't just call its data, we call it big data because companies have so much data today. Now the job of a data scientist is to collect the data, analyze it, process it and finally get some useful insights from it. Useful insights means to get useful information, information that can be useful to their company, so that they can help their users better or grow their platform more. So when we mix business skills with algorithms, data skills and math, we get a field of data science. Now to become a data scientist, we have many steps that we have to perform to actually learn the skills. Now all the topics related to data science, all the information that we are sharing today, you will get all of it in notes format. So you will get a link in the description box below, you can download it from there. Now the field of data science is not necessary that we are studying math or we are coming from the computer science branch. Any person can come and if they invest a lot of time in data science, they can actually learn these skills and make a good career. Now the first step that comes in this journey is to learn a programming language. Generally, there are two major programming languages in data science, one is Python and the other is R. Now Python is the most popular of all because it has very good libraries available. Resources are very good available in it. So first of all, we have to learn the basics of Python. In the basics of Python, our variables come, our FLS come, our loops come. So we have to learn these basic things in Python first and then we have to learn two libraries in Python. One is our NumPy and one is our Pandas. These libraries help us in dealing with data, how we can interact with data in Python. Now if we want to learn basic Python, then we have already made a one-shot for it. You can go and explore that. In that one shot, the basics of Python cover and after that we will have to learn NumPy and Pandas separately. Now the Python we are learning here will not be complete. In this, we will only cover the basics and some basic libraries. After that, the second step comes to learn some statistics. Now it is possible that we have only studied math till 10, then there are a couple of extra topics in math that we have to study to become a good data scientist. And if we consider that we have studied math in 11th and 12th, then it is even better because generally our math syllabus in India has these topics covered. And if they are not covered or covered, then we have to go and revise them once. So in the field of data science, math plays an important and crucial role. But we do not have to do that in this that we have to learn the formula of math. The actual understanding of all those things that come under data science is important. Because if we look at this chart, then in recent years, according to professionals, the maximum jobs that are in the data science field are in data analytics. And in data analytics, we generally deal more with the business side or the analytics side. In which the concepts of our statistics should be strong, but if we have not studied too much math or we have not gone too deep, then our work can still work. Now there are four major topics in math that we cover, among which the first is statistics, the second is linear algebra, the third is the data science field. The fourth is calculus, and the fourth is probability. Now the sub topics in these can be a little heavy to listen to if we have not studied math or focused too much in 11-12. But if we understand the core concepts of these, then it will be enough for us. In statistics, we have to read things like mean, median, mode, variance, standard, deviation. They have to understand well. Not only keep things, but actually understand how all these things relate to data. And if we calculate the mean in the data, then what does the actual meaning of the mean mean? In linear algebra, we will read topics like vectors, matrices, eigenvalues. Now the list of all these topics that we have to read will be given to you in the description box below. We can download this extensive list and then go and read each topic. The third thing we had to read was calculus. Now what are the derivatives in calculus? The term dy by dx, what does it actually mean in math? We have to learn all these things. The fourth thing we had to read was probability. What are the odds in probability? What are the conditional probabilities? What is the base theorem, which is very important? How do we practically use all these things? We have to learn this thing. So from here, our basics of math, i.e. our statistics, probability, calculus, linear algebra, will be covered, which we have to read well. After reading these, we come to the third step, which is data visualization. That is, we have collected the data, now how do we visualize it? Visualizing is important because when we work with businesses, when we work in companies, we will become data scientists, but other people have taken out the insights in our data, the pattern we have found and taken out, how will they understand it? They will understand it using graphs, charts. So to make things like this, we will have to learn data visualization. To learn this, we will cover two very famous libraries in Python. One is our matplotlib and the other is our seaborn. We should know how to use them well. And along with that, if we have basic Excel knowledge, then that will also be good, because if there is a small scale data, then to present it a little, we use our Excel sheets. Now there is no need to take any course of Excel at a very extreme level. We can learn a very basic level of Excel, which we can learn by using it ourselves. Now let's assume that we have to learn things at an advanced level in data visualization, so we can learn more good tools in it, like Power BI, like Tabla. But if we are a fresher, then we can ignore both the tools in college. Anyway, if we go to the data analyst job, then we will be learning in the job. And then the fourth step comes of machine learning, i.e. applying machine learning algorithms on data. In ML algorithms, we have four major types of algorithms, one of which is supervised, second, third, and fourth is reinforcement learning. Now we can learn different types of algorithms in them and then we can apply those algorithms on data. Now how to learn machine learning, where to start, what kind of process will be there, what resources will be there, we have already made dedicated videos on that, now we can go and explore them. Now whenever we apply ML algorithms on data, then it is very important that we apply those machine learning algorithms on good data. In this way, we should first deal with data, where is the data stored, how to handle it. So here, just having ML knowledge is not enough, we also have enough data bases knowledge, so if we take knowledge of SQL with data bases, then it becomes a plus point for us. So you can also ask questions of SQL in the interviews of data scientists. Now we have already made a dedicated complete course of SQL on YouTube, you can also go and explore it, otherwise you can go to any resource and read the basic concepts of SQL. Now once we have collected all this knowledge, then we should practice all the knowledge in the form of projects. Now to do projects, we have a very famous website in data science, which is called Kaggle. On Kaggle, you will get many different project ideas, you will get many data sets, on which you can apply your own knowledge and learn. Now whenever we make projects, there are two major benefits, first of all, we practice things. And practical practice is very important in the field of data science, because it is not a theoretical field, the more you learn to practically implement things, the better it will be for us. And the second major benefit is that we have projects to write in our resume, to put in our portfolio, which show our experience. If we are applying for freshers, for internship or placement, and we do not have any experience of internship placement, then the best way is to show our experience to the companies that we have projects in our resume. So projects will help us in that journey. And along with projects, it would be good for us to take knowledge of Git, because once we have made projects, then to showcase projects or to see other people's projects, we have a website called GitHub, which has a tool called Git, its concepts are used. Now it may seem like a little strange terms in the beginning, but there is no need to be afraid of them, there are many basic things. So we have made a tutorial covering Git, you can also learn from it, or you can make your own account on GitHub and you can host any projects you make there. So this was our basic 5-step roadmap to go in the field of data science. Now let's say we have learned all these things, then we have a choice that we can specialize in any of them. Let's say there are many different parts in the field of data science. One is the part of algorithms, and the other is data itself, we have big data, so we have data lakes, data warehouses to store such big data. One part of this is our business side, that is, if we have taken insights from data, then how well can we apply it to the growth of the company. So in whichever part we are most interested in, we can specialize in it. If we are more interested in data, if we are interested in algorithms, then after machine learning, we can learn deep learning algorithms, we can explore neural networks, artificial neural networks, CNN networks. If we are most interested in business side, then we can look at more advanced visualization tools. So data science is a field in which not only basics, but also we are most interested in any domain, we can gain specialization over the years. Generally, our core algorithm-based roles, which include machine learning and deep learning, many companies like Google and Microsoft require that you already have a master's or PhD. So if we want to go into the data science field especially in algorithms or big data side, then if we are actually interested in it, then we can consider that over the years we will be taking a master's degree. There are many other things available in which we can apply and establish a good career. So I hope that we have got some clarity today that if we want to make a career in the field of data science, then what steps will we have to take, what resources we have to follow, and what are the things that we can take care of over the years if we are going into this field. Apart from this, if you have any doubts about technology then please comment below."
+}

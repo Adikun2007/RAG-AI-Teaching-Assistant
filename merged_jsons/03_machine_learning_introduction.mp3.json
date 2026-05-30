@@ -1,0 +1,144 @@
+{
+    "video_number": 3,
+    "video_title": "03 machine learning introduction.mp3",
+    "source_file": "03_machine_learning_introduction.mp3.json",
+    "total_chunks": 15,
+    "chunks": [
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 0.0,
+            "end": 28.0,
+            "text": "We know that people learn from their past experiences and machines follow the instructions of people. But what if people could train machines in such a way that they learn from their past data and do what people can do and do it much faster? Well, that's called machine learning. But it's about much more than just learning. It's also about understanding and arguing. So today we get to know the basics of machine learning. This is Paul. He loves to listen to new songs.",
+            "source_count": 5
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 24.240000000000002,
+            "end": 79.16,
+            "text": "This is Paul. He loves to listen to new songs. Either you like it or not. Paul decides this by the tempo, the genre, the intensity and the pitch of the song. To simplify it, we use tempo and intensity first. The tempo is here on the X-axis and ranges from relaxed to fast, while the intensity on the Y-axis is from light to fast. The tempo is here on the X-axis and ranges from relaxed to fast, while the intensity on the Y-axis is from light to fast. We see that Paul likes the song with fast tempo and fast intensity, while he doesn't like the song with relaxed tempo and light intensity. So now we know Paul's decisions. Let's assume Paul listens to a new song. Let's call it song. Song A has a fast tempo and an increasing intensity. So it's somewhere here. If you look at the data, you can guess whether Paul will like the song or not.",
+            "source_count": 10
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 74.16,
+            "end": 131.16,
+            "text": "If you look at the data, you can guess whether Paul will like the song or not. Right. Paul likes this song. By looking at Paul's earlier options, we could classify the unknown song very easily. Right. Let's assume Paul listens to a new song. Let's call it song B. Song B is somewhere here with a medium tempo and medium intensity. Neither relaxed nor fast, neither light nor rising. Can you guess whether Paul likes it or not? Neither relaxed nor fast, neither light nor rising. Can you guess whether Paul likes it or not? Are the options unclear? Right. We could classify song A easily. But if the choice is complicated, as in the case of song B, yes. And here comes machine learning into the game. Let's see how, if we draw a circle around song B in the same example for song B, we see that there are four voices for I like and a voice for I don't like. If we assume the majority of the voices, we can say that Paul will definitely like the song.",
+            "source_count": 10
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 126.16,
+            "end": 157.16,
+            "text": "If we assume the majority of the voices, we can say that Paul will definitely like the song. That's all. That was also a simple algorithm for machine learning. It is called K-nearest neighbors. That's just a small example of one of the many algorithms for machine learning. Pretty easy? Or do you believe me? That's it. But what happens when the options are complicated? As in the case of song B, machine learning comes into play. It learns the data, creates the prediction model and can easily predict new data points at the beginning of a new meeting.",
+            "source_count": 5
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 151.16,
+            "end": 186.16,
+            "text": "It learns the data, creates the prediction model and can easily predict new data points at the beginning of a new meeting. The more data there is, the better the model and the higher the accuracy. Machine learning can be achieved in different ways. It can be either supervised learning, supervised learning or enhanced learning. Let's first briefly understand supervised learning. Assuming your friend gives you a million coins in three different currencies, let's say a rupee, one and one. Each coin has a different weight. A rupee coin weighs, for example, three grams.",
+            "source_count": 5
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 181.16,
+            "end": 211.16,
+            "text": "Each coin has a different weight. A rupee coin weighs, for example, three grams. One euro weighs seven grams and one dirham weighs four grams. Your model predicts the currency of the coin. Here your weight becomes the trademark of the coins, while the currency becomes their name. When you enter this data into the machine learning model, it learns which trademark is associated with which name. For example, it learns that a coin weighs three grams and one rupee. Let's give the machine a new coin.",
+            "source_count": 5
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 204.16,
+            "end": 233.16,
+            "text": "For example, it learns that a coin weighs three grams and one rupee. Let's give the machine a new coin. Your model predicts the currency based on the weight of the new coin. Therefore, supervised learning uses data that is known to train the model. Here the machine knew the characteristics of the object and the names associated with these characteristics. In this sense, we turn to supervised learning and see the difference. Assuming you have a cricket data set of different players with their respective results and the achieved wickets.",
+            "source_count": 5
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 228.16,
+            "end": 258.15999999999997,
+            "text": "Assuming you have a cricket data set of different players with their respective results and the achieved wickets. When we feed this data set into the machines, the machine recognizes the performance pattern of the players. So it displays these data with the respective wickets on the x-axis and the runs on the y-axis graphically. When looking at the data, you will clearly see that there are two clusters. The cluster includes the players who have achieved many runs and have collected fewer wickets, while the other cluster consists of players who have achieved fewer runs but have collected many wickets.",
+            "source_count": 5
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 248.16,
+            "end": 277.15999999999997,
+            "text": "The cluster includes the players who have achieved many runs and have collected fewer wickets, while the other cluster consists of players who have achieved fewer runs but have collected many wickets. Here we interpret these two clusters as hitmen and throwers. It is important here that there are no names for hitmen and throwers. Therefore, supervised learning is learning with unidentified data. So we saw supervised learning where the data were identified and supervised learning where the data were not identified.",
+            "source_count": 5
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 270.15999999999997,
+            "end": 311.16,
+            "text": "So we saw supervised learning where the data were identified and supervised learning where the data were not identified. And then there is the reward-based learning or we can say that it works according to the principle of feedback. Let's assume you give the system a picture of a dog and ask it to identify it. The system identifies it as a cat. You give the machine a negative feedback that it is a dog picture. You give the machine a negative feedback that it is a dog picture. The machine learns from the feedback and when it finally hits another picture of a dog, it can classify it correctly. This is supervised learning. To generalize the model of machine learning, let's look at a flow diagram. A model of machine learning is transmitted with inputs that then deliver the output according to the applied algorithm.",
+            "source_count": 10
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 306.16,
+            "end": 349.16,
+            "text": "A model of machine learning is transmitted with inputs that then deliver the output according to the applied algorithm. If this is true, we take the output as our final result. Otherwise, we give the training model feedback and ask it to predict until it has learned. I hope you have understood supervised and unguided learning. Let's do a little quiz now. Let's do a little quiz now. You have to find out whether supervised or unguided learning is used in the given scenario. Or scenario 1 Facebook recognizes its friend in a picture from an album with tagged photos. Scenario 2 Netflix recommends new films based on the previous film selection of a person. Scenario 3 Analyze suspicious transactions from bank data and identify fraudulent transactions.",
+            "source_count": 10
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 343.16,
+            "end": 380.16,
+            "text": "Scenario 3 Analyze suspicious transactions from bank data and identify fraudulent transactions. Think about it well and comment on your answers below. Let's get to the topic. Don't you ever wonder how machine learning is possible today? Well, that's because we have huge amounts of data available today. Well, that's because we have huge amounts of data available today. Everyone is online either to carry out a transaction or just to surf the Internet. Every minute generates huge amounts of data. And these data, my friend, are the key to the analysis. In addition, the memory capacities of computers have greatly improved, so that they can process such large amounts of data without delay.",
+            "source_count": 10
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 372.16,
+            "end": 422.16,
+            "text": "In addition, the memory capacities of computers have greatly improved, so that they can process such large amounts of data without delay. And yes, computers now have enormous computing power. Therefore, there are numerous applications for machine learning. To name just a few, machine learning is used in the health care system, where diagnoses for medical examination are predicted. The mood analysis, which the technology giants carry out in social media, is another interesting application for machine learning. The mood analysis, which the technology giants carry out in social media, is another interesting application for machine learning. Fraud detection in the finance sector and also the prediction of customer migration in the e-commerce sector. When booking a taxi, you must have often been caught up in the price search, which states that the price of your trip has been updated. Continue booking. Yes, please. I'll be late for the office. Well, that's an interesting model for machine learning that is used by global taxi giants Uber and others.",
+            "source_count": 10
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 416.16,
+            "end": 448.16,
+            "text": "Well, that's an interesting model for machine learning that is used by global taxi giants Uber and others. They have different prices in real time, which are set according to the demand, the number of available cars, bad weather, rush hours, etc. So they use the search price model to ensure that those who need a taxi also get one. In addition, predictive models are used to say beforehand where the demand will be the highest, with the goal that the drivers can take care of the demand and minimize the search prices. Great! Hey Siri, can you remind me to order a taxi at 6pm today?",
+            "source_count": 5
+        },
+        {
+            "video_number": 3,
+            "video_title": "03 machine learning introduction.mp3",
+            "source_file": "03_machine_learning_introduction.mp3.json",
+            "start": 444.16,
+            "end": 466.16,
+            "text": "Great! Hey Siri, can you remind me to order a taxi at 6pm today? Okay, I'll remind you of that. Thanks, no problem. Comment below a few interesting examples from your everyday life in which machines learn and perform amazing work. So that was everything about the basics of machine learning from me for today. Keep watching to get more interesting videos. Until then and have fun learning. Keep watching to get more interesting videos. Until then and have fun learning.",
+            "source_count": 6
+        }
+    ],
+    "full_text": " We know that people learn from their past experiences and machines follow the instructions of people. But what if people could train machines in such a way that they learn from their past data and do what people can do and do it much faster? Well, that's called machine learning. But it's about much more than just learning. It's also about understanding and arguing. So today we get to know the basics of machine learning. This is Paul. He loves to listen to new songs. Either you like it or not. Paul decides this by the tempo, the genre, the intensity and the pitch of the song. To simplify it, we use tempo and intensity first. The tempo is here on the X-axis and ranges from relaxed to fast, while the intensity on the Y-axis is from light to fast. We see that Paul likes the song with fast tempo and fast intensity, while he doesn't like the song with relaxed tempo and light intensity. So now we know Paul's decisions. Let's assume Paul listens to a new song. Let's call it song. Song A has a fast tempo and an increasing intensity. So it's somewhere here. If you look at the data, you can guess whether Paul will like the song or not. Right. Paul likes this song. By looking at Paul's earlier options, we could classify the unknown song very easily. Right. Let's assume Paul listens to a new song. Let's call it song B. Song B is somewhere here with a medium tempo and medium intensity. Neither relaxed nor fast, neither light nor rising. Can you guess whether Paul likes it or not? Are the options unclear? Right. We could classify song A easily. But if the choice is complicated, as in the case of song B, yes. And here comes machine learning into the game. Let's see how, if we draw a circle around song B in the same example for song B, we see that there are four voices for I like and a voice for I don't like. If we assume the majority of the voices, we can say that Paul will definitely like the song. That's all. That was also a simple algorithm for machine learning. It is called K-nearest neighbors. That's just a small example of one of the many algorithms for machine learning. Pretty easy? Or do you believe me? That's it. But what happens when the options are complicated? As in the case of song B, machine learning comes into play. It learns the data, creates the prediction model and can easily predict new data points at the beginning of a new meeting. The more data there is, the better the model and the higher the accuracy. Machine learning can be achieved in different ways. It can be either supervised learning, supervised learning or enhanced learning. Let's first briefly understand supervised learning. Assuming your friend gives you a million coins in three different currencies, let's say a rupee, one and one. Each coin has a different weight. A rupee coin weighs, for example, three grams. One euro weighs seven grams and one dirham weighs four grams. Your model predicts the currency of the coin. Here your weight becomes the trademark of the coins, while the currency becomes their name. When you enter this data into the machine learning model, it learns which trademark is associated with which name. For example, it learns that a coin weighs three grams and one rupee. Let's give the machine a new coin. Your model predicts the currency based on the weight of the new coin. Therefore, supervised learning uses data that is known to train the model. Here the machine knew the characteristics of the object and the names associated with these characteristics. In this sense, we turn to supervised learning and see the difference. Assuming you have a cricket data set of different players with their respective results and the achieved wickets. When we feed this data set into the machines, the machine recognizes the performance pattern of the players. So it displays these data with the respective wickets on the x-axis and the runs on the y-axis graphically. When looking at the data, you will clearly see that there are two clusters. The cluster includes the players who have achieved many runs and have collected fewer wickets, while the other cluster consists of players who have achieved fewer runs but have collected many wickets. Here we interpret these two clusters as hitmen and throwers. It is important here that there are no names for hitmen and throwers. Therefore, supervised learning is learning with unidentified data. So we saw supervised learning where the data were identified and supervised learning where the data were not identified. And then there is the reward-based learning or we can say that it works according to the principle of feedback. Let's assume you give the system a picture of a dog and ask it to identify it. The system identifies it as a cat. You give the machine a negative feedback that it is a dog picture. The machine learns from the feedback and when it finally hits another picture of a dog, it can classify it correctly. This is supervised learning. To generalize the model of machine learning, let's look at a flow diagram. A model of machine learning is transmitted with inputs that then deliver the output according to the applied algorithm. If this is true, we take the output as our final result. Otherwise, we give the training model feedback and ask it to predict until it has learned. I hope you have understood supervised and unguided learning. Let's do a little quiz now. You have to find out whether supervised or unguided learning is used in the given scenario. Or scenario 1 Facebook recognizes its friend in a picture from an album with tagged photos. Scenario 2 Netflix recommends new films based on the previous film selection of a person. Scenario 3 Analyze suspicious transactions from bank data and identify fraudulent transactions. Think about it well and comment on your answers below. Let's get to the topic. Don't you ever wonder how machine learning is possible today? Well, that's because we have huge amounts of data available today. Everyone is online either to carry out a transaction or just to surf the Internet. Every minute generates huge amounts of data. And these data, my friend, are the key to the analysis. In addition, the memory capacities of computers have greatly improved, so that they can process such large amounts of data without delay. And yes, computers now have enormous computing power. Therefore, there are numerous applications for machine learning. To name just a few, machine learning is used in the health care system, where diagnoses for medical examination are predicted. The mood analysis, which the technology giants carry out in social media, is another interesting application for machine learning. Fraud detection in the finance sector and also the prediction of customer migration in the e-commerce sector. When booking a taxi, you must have often been caught up in the price search, which states that the price of your trip has been updated. Continue booking. Yes, please. I'll be late for the office. Well, that's an interesting model for machine learning that is used by global taxi giants Uber and others. They have different prices in real time, which are set according to the demand, the number of available cars, bad weather, rush hours, etc. So they use the search price model to ensure that those who need a taxi also get one. In addition, predictive models are used to say beforehand where the demand will be the highest, with the goal that the drivers can take care of the demand and minimize the search prices. Great! Hey Siri, can you remind me to order a taxi at 6pm today? Okay, I'll remind you of that. Thanks, no problem. Comment below a few interesting examples from your everyday life in which machines learn and perform amazing work. So that was everything about the basics of machine learning from me for today. Keep watching to get more interesting videos. Until then and have fun learning."
+}
