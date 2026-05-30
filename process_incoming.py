@@ -3,6 +3,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import joblib
 import requests
+from config import GROQ_API_KEY
 
 def create_embedding(text_list):
     r = requests.post("http://localhost:11434/api/embed", 
@@ -12,14 +13,15 @@ def create_embedding(text_list):
     embedding = r.json()['embeddings']
     return embedding
 
-def inference(prompt):
-    r = requests.post("http://localhost:11434/api/generate", 
-                    json={"model": "deepseek-r1:32b",
-                          "prompt": prompt,
-                          "stream": False})
 
-    response = r.json()['response']
-    return response
+
+def inference(prompt):
+    r = requests.post("https://api.groq.com/openai/v1/chat/completions",
+                    headers={"Authorization": f"Bearer {GROQ_API_KEY}",
+                             "Content-Type": "application/json"},
+                    json={"model": "llama-3.3-70b-versatile",
+                          "messages": [{"role": "user", "content": prompt}]})
+    return r.json()['choices'][0]['message']['content']
 
 df = joblib.load('chunks_embeddings.joblib')
 
@@ -100,13 +102,13 @@ RULES:
 - Do not repeat the same chunk information multiple times.
 '''
 
-with open('prompt.txt', 'w') as f:
+with open('prompt.txt', 'w', encoding='utf-8') as f:
     f.write(prompt)
 
-
-response = inference(prompt)['response']
+response = inference(prompt)
 print(response)
-with open('response.txt', 'w') as f:
+
+with open('response.txt', 'w', encoding='utf-8') as f:
     f.write(response)
 
 for index, row in new_df.iterrows():

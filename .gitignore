@@ -1,3 +1,4 @@
 .vscode
 venv
 whisper
+config.py
