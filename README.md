@@ -137,8 +137,8 @@ answer + best video timestamp
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
+git clone https://github.com/Adikun2007/RAG-AI-Teaching-Assistant.git
+cd RAG-AI-Teaching-Assistant
 ```
 
 ### 2. Create a Virtual Environment

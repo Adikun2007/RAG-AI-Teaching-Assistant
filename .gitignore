@@ -3,3 +3,11 @@ venv
 whisper
 config.py
 __pycache__
+videos/
+audios/
+jsons/
+merged_jsons/
+
+chunks_embeddings.joblib
+prompt.txt
+response.txt
